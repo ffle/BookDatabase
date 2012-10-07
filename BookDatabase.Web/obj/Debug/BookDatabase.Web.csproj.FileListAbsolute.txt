@@ -28,3 +28,4 @@ E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\bin
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\obj\Debug\ResolveAssemblyReference.cache
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.dll
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.pdb
+E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\bin\CustomDictionary.xml

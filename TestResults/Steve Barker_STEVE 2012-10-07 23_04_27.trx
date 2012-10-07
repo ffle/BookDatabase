@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ef13aade-23db-414e-8a49-b2ed234991a5" name="Steve Barker@STEVE 2012-10-07 23:04:27" runUser="STEVE\Steve Barker" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2d87ad09-0d8b-450c-b43f-7b624737ef90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Steve Barker_STEVE 2012-10-07 23_04_27">
+      <DeploymentItem filename="E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api\bin\Debug\BookDatabase.Api.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-07T23:04:27.5860000+01:00" queuing="2012-10-07T23:04:29.5300000+01:00" start="2012-10-07T23:04:29.6560000+01:00" finish="2012-10-07T23:04:30.2440000+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsNewTest" storage="e:\programming\microsoft .net\asp.net\projects\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="69ccb285-2f44-6656-6e78-b6158a4c956d">
+      <Execution id="1fc60d15-dc31-41b6-a959-64ed64c4110c" />
+      <TestMethod codeBase="E:/Programming/Microsoft .NET/ASP.NET/Projects/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.BusinessObjects.BusinessObjectTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNewTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Unit Tests" id="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="69ccb285-2f44-6656-6e78-b6158a4c956d" name="IsNewTest" storage="e:\programming\microsoft .net\asp.net\projects\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69ccb285-2f44-6656-6e78-b6158a4c956d" executionId="1fc60d15-dc31-41b6-a959-64ed64c4110c" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1fc60d15-dc31-41b6-a959-64ed64c4110c" testId="69ccb285-2f44-6656-6e78-b6158a4c956d" testName="IsNewTest" computerName="STEVE" duration="00:00:00.0303489" startTime="2012-10-07T23:04:29.6750000+01:00" endTime="2012-10-07T23:04:30.2040000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="1fc60d15-dc31-41b6-a959-64ed64c4110c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

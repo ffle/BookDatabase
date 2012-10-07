@@ -15,3 +15,4 @@ E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api\bin
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api\obj\Debug\ResolveAssemblyReference.cache
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api\obj\Debug\BookDatabase.Api.dll
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api\obj\Debug\BookDatabase.Api.pdb
+E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api\bin\Debug\CustomDictionary.xml

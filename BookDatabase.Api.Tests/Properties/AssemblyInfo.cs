@@ -8,9 +8,9 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("BookDatabase.Api")]
+[assembly: AssemblyTitle("BookDatabase.Api.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: Guid("880b2b25-c8ab-44ba-9e87-5b9a7e82d887")]
+[assembly: Guid("c06f9704-7e73-4dec-b2b5-93ce430d67be")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

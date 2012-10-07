@@ -3,3 +3,4 @@ E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web.Tes
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web.Tests\obj\Debug\BookDatabase.Web.Tests.dll
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web.Tests\obj\Debug\BookDatabase.Web.Tests.pdb
+E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web.Tests\bin\Debug\CustomDictionary.xml

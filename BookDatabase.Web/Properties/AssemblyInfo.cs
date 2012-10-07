@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("BookDatabase.Api")]
+[assembly: AssemblyTitle("BookDatabase.Web")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: Guid("d225afae-e859-4c3f-874f-26f3aad91bd4")]

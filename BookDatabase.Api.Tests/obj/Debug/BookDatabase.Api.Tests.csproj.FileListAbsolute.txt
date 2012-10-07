@@ -1,10 +1,8 @@
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.Tests.dll
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.Tests.pdb
-E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Moq.dll
-E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\nunit.framework.dll
-E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Moq.pdb
-E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Moq.xml
-E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\nunit.framework.xml
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\obj\Debug\ResolveAssemblyReference.cache
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\obj\Debug\BookDatabase.Api.Tests.dll
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\obj\Debug\BookDatabase.Api.Tests.pdb
+E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.dll
+E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.pdb
+E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\CustomDictionary.xml
