@@ -1,0 +1,5 @@
+============
+BookDatabase
+============
+
+This is a sample application demonstrating the user of ASP.NET MVC4 with HNibernate, CastleWindsor and Log4Net. The application can be thought of as a simple copy of IMDB (Internet Movie Database) but to handle books.
