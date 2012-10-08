@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7" ModuleId="BookDatabase.Api.Tests" />
+  <Module PersistentId="6346FDA2-B622-47C1-B073-B0544EEF4CDC" ModuleId="BookDatabase.Api" />
+</Modules>
