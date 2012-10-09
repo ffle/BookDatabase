@@ -91,12 +91,6 @@ namespace BookDatabase.Api.BusinessObjects
                 return ReferenceEquals(this, other);
             }
 
-            // See if the objects are the same type:
-            if (other.GetType() != GetType())
-            {
-                return false;
-            }
-
             // Otherwise the two are equal if their Ids are equal:
             return Equals(other.Id, Id);
         }

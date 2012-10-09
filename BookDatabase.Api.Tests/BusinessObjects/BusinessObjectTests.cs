@@ -6,7 +6,6 @@
 
 using BookDatabase.Api.BusinessObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 
 namespace BookDatabase.Api.Tests.BusinessObjects
 {
@@ -38,25 +37,102 @@ namespace BookDatabase.Api.Tests.BusinessObjects
         }
 
         /// <summary>
-        /// Tests the == operator
+        /// Tests the equality operators
         /// </summary>
         [TestMethod]
-        public void EqualsOperatorTest()
+        public void EqualityOperatorsTest()
         {
             // Arrange:
-            var targetNew1 = new TestBusinessObject { Name = "A" };
-            var targetNew2 = new TestBusinessObject { Name = "B" };            
+            var newA = new TestBusinessObject { Name = "A" };
+            var newB = new TestBusinessObject { Name = "B" };
+            var savedA1 = new TestBusinessObject { Id = 1, Name = "A" };
+            var savedA2 = new TestBusinessObject { Id = 2, Name = "A" };
+            var savedB = new TestBusinessObject { Id = 3, Name = "B" };
 
-            // Act:
-            var nullAndNull = (TestBusinessObject)null == (TestBusinessObject)null;
-            var nullAndNotNull = targetNew1 == (TestBusinessObject)null;
-            var notNullAndNull = (TestBusinessObject)null == targetNew1;
+            // Act/Assert:
+            EqualityOperatorsTestHelper(null, null, true);
+            EqualityOperatorsTestHelper(newA, null, false);
+            EqualityOperatorsTestHelper(null, newA, false);
+            EqualityOperatorsTestHelper(newA, newA, true);
+            EqualityOperatorsTestHelper(newA, newB, false);
+            EqualityOperatorsTestHelper(newB, savedB, false);
+            EqualityOperatorsTestHelper(savedA1, savedA1, true);
+            EqualityOperatorsTestHelper(savedA1, savedA2, false);
+            EqualityOperatorsTestHelper(savedA1, savedB, false);
+        }
 
-            // Assert:
-            Assert.IsTrue(nullAndNull);
+        /// <summary>
+        /// Tests the Equals methods
+        /// </summary>
+        [TestMethod]
+        public void EqualsMethodsTest()
+        {
+            // Arrange:
+            var newA = new TestBusinessObject { Name = "A" };
+            var newB = new TestBusinessObject { Name = "B" };
+            var savedA1 = new TestBusinessObject { Id = 1, Name = "A" };
+            var savedA2 = new TestBusinessObject { Id = 2, Name = "A" };
+            var savedB = new TestBusinessObject { Id = 3, Name = "B" };
 
-            // This needs more work:
-            throw new NotImplementedException("Need to do more here");
+            // Act/Assert:
+            EqualityMethodsTestHelper(newA, null, false);
+            EqualityMethodsTestHelper(newA, newA, true);
+            EqualityMethodsTestHelper(newA, "String", false);
+            EqualityMethodsTestHelper(newA, newB, false);
+            EqualityMethodsTestHelper(newB, savedB, false);
+            EqualityMethodsTestHelper(savedA1, savedA1, true);
+            EqualityMethodsTestHelper(savedA1, savedA2, false);
+            EqualityMethodsTestHelper(savedA1, savedB, false);
+        }
+
+        /// <summary>
+        /// Test the GetHashCode method
+        /// </summary>
+        [TestMethod]
+        public void GetHashCodeTest()
+        {
+            // Arrange:
+            var newItem1 = new TestBusinessObject { Name = "A" };
+            var newItem2 = new TestBusinessObject { Name = "A" };
+            var savedItem = new TestBusinessObject { Id = 1, Name = "A" };
+            
+            // Act/Assert:
+            Assert.AreNotEqual(newItem1.GetHashCode(), newItem2.GetHashCode());
+            Assert.AreEqual(savedItem.Id.GetHashCode(), savedItem.GetHashCode());
+        }
+
+        #endregion
+
+        #region Private Static Methods
+
+        /// <summary>
+        /// Helper to test the equality operators
+        /// </summary>
+        /// <param name="item1">The first item to test</param>
+        /// <param name="item2">The second item to test</param>
+        /// <param name="expectEqual">Whether the items are expected to be equal</param>
+        private static void EqualityOperatorsTestHelper(BusinessObject item1, BusinessObject item2, bool expectEqual)
+        {
+            var equalityOperator = item1 == item2;
+            var inequalityOperator = item1 != item2;
+            
+            Assert.AreEqual(expectEqual, equalityOperator);
+            Assert.AreEqual(!expectEqual, inequalityOperator);
+        }
+
+        /// <summary>
+        /// Helper to test the equality methods
+        /// </summary>
+        /// <param name="item1">The first item to test</param>
+        /// <param name="item2">The second item to test</param>
+        /// <param name="expectEqual">Whether the items are expected to be equal</param>
+        private static void EqualityMethodsTestHelper(BusinessObject item1, object item2, bool expectEqual)
+        {
+            var equalsMethod1 = item1.Equals(item2);
+            var equalsMethod2 = item1.Equals(item2);
+
+            Assert.AreEqual(expectEqual, equalsMethod1);
+            Assert.AreEqual(expectEqual, equalsMethod2);
         }
 
         #endregion

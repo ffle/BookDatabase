@@ -19,6 +19,11 @@ namespace BookDatabase.Api.BusinessObjects.Users
         #region Public Properties
 
         /// <summary>
+        /// Gets or sets the user name
+        /// </summary>
+        public string UserName { get; set; }
+
+        /// <summary>
         /// Gets or sets the first name
         /// </summary>
         public string FirstName { get; set; }

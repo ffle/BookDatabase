@@ -29,3 +29,34 @@ E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\obj
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.dll
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.pdb
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Web\bin\CustomDictionary.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\CustomDictionary.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\BookDatabase.Web.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\BookDatabase.Web.pdb
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Newtonsoft.Json.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Net.Http.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Net.Http.Formatting.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Net.Http.WebRequest.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Helpers.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Http.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Http.WebHost.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Mvc.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Razor.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.WebPages.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.WebPages.Razor.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Newtonsoft.Json.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Net.Http.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Net.Http.Formatting.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Net.Http.WebRequest.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Helpers.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Http.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Http.WebHost.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Mvc.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.Razor.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.WebPages.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.WebPages.Razor.xml
+C:\Personal\BookDatabase\BookDatabase.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Personal\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.dll
+C:\Personal\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.pdb

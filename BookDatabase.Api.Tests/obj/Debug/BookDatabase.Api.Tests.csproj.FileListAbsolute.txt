@@ -6,3 +6,20 @@ E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tes
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.dll
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.pdb
 E:\Programming\Microsoft .NET\ASP.NET\Projects\BookDatabase\BookDatabase.Api.Tests\bin\Debug\CustomDictionary.xml
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\CustomDictionary.xml
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.Tests.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.Tests.pdb
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.pdb
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\obj\Debug\BookDatabase.Api.Tests.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\obj\Debug\BookDatabase.Api.Tests.pdb
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\BookDatabase.Api.Tests.dll.config
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\FluentNHibernate.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\log4net.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\NHibernate.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\FluentNHibernate.xml
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\log4net.xml
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\NHibernate.xml
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Iesi.Collections.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Iesi.Collections.xml
