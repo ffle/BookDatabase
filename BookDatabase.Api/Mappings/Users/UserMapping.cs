@@ -21,6 +21,7 @@ namespace BookDatabase.Api.Mappings.Users
         public UserMapping()
         {
             Map(x => x.UserName).Length(100).Not.Nullable().Unique();
+            Map(x => x.Password).Length(100).Not.Nullable();
             Map(x => x.FirstName).Length(100).Not.Nullable();
             Map(x => x.LastName).Length(100).Not.Nullable();
         }

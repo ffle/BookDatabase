@@ -4,7 +4,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using System.Reflection;
+using BookDatabase.Api.Configuration;
 using BookDatabase.Api.Nhibernate.Conventions;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
@@ -15,7 +15,7 @@ namespace BookDatabase.Api.Nhibernate.Sessions
     /// <summary>
     /// Abstract class from which SessionFactoryFactory instances should inherit
     /// </summary>
-    public abstract class SessionFactoryFactory : ISessionFactoryFactory
+    public class SessionFactoryFactory : ISessionFactoryFactory
     {
         #region Private Static Readonly Fields
 
@@ -35,17 +35,12 @@ namespace BookDatabase.Api.Nhibernate.Sessions
 
         #endregion
 
-        #region Protected Abstract Properties
+        #region Public Properties
 
         /// <summary>
-        /// Gets the database configuration to use
+        /// Gets or sets the configuration file
         /// </summary>
-        protected abstract IPersistenceConfigurer DatabaseConfiguration { get; }
-
-        /// <summary>
-        /// Gets the assembly to use for mappings
-        /// </summary>
-        protected abstract Assembly MappingsAssembly { get; }
+        public IApiConfigurationFile ConfigurationFile { get; set; }
 
         #endregion
 
@@ -55,16 +50,24 @@ namespace BookDatabase.Api.Nhibernate.Sessions
         /// Gets a SessionFactory
         /// </summary>
         /// <returns>A configured SessionFactory</returns>
-        public ISessionFactory GetInstance()
+        public virtual ISessionFactory GetInstance()
         {
             lock (SessionFactoryLock)
             {
                 if (sessionFactory == null)
                 {
+                    var mappingsAssembly = GetType().Assembly;
+                    
+#if DEBUG 
+                    var databaseConfiguration = MsSqlConfiguration.MsSql2008.ConnectionString(ConfigurationFile.ConnectionString).ShowSql();
+#else
+                    var databaseConfiguration = MsSqlConfiguration.MsSql2008.ConnectionString(ConfigurationFile.ConnectionString);
+#endif
+
                     sessionFactory = Fluently.Configure()
-                        .Database(DatabaseConfiguration)
-                        .Mappings(x => x.FluentMappings.AddFromAssembly(MappingsAssembly))
-                        .Mappings(x => x.HbmMappings.AddFromAssembly(MappingsAssembly))
+                        .Database(databaseConfiguration)
+                        .Mappings(x => x.FluentMappings.AddFromAssembly(mappingsAssembly))
+                        .Mappings(x => x.HbmMappings.AddFromAssembly(mappingsAssembly))
                         .Mappings(x => x.FluentMappings.Conventions.Add(new CustomForeignKeyConvention()))
                         .BuildSessionFactory();
                 }

@@ -8,10 +8,64 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/f:BusinessObjectTests.cs" caret="561" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Sessions/f:ISessionFactoryFactory.cs" caret="292" fromTop="7" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Conventions/f:CustomForeignKeyConvention.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:BusinessObjects/d:Users/f:User.cs" caret="255" fromTop="4" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:DataHelpers/f:SqlExecutor.cs" caret="3081" fromTop="13" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Mappings/d:Users/f:UserMappingTests.cs" caret="1471" fromTop="13" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/d:Users/f:UserHelper.cs" caret="989" fromTop="25" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:IApiConfigurationFile.cs" caret="766" fromTop="23" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:IUserRepository.cs" caret="471" fromTop="13" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/f:IRepository.cs" caret="351" fromTop="8" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/f:App.config" caret="359" fromTop="4" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Mappings/d:Users/f:UserMapping.cs" caret="949" fromTop="21" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:UserRepository.cs" caret="524" fromTop="14" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Mappings/f:BusinessObjectClassMap.cs" caret="991" fromTop="18" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:IUnitOfWork.cs" caret="685" fromTop="22" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:DataHelpers/f:MasterSqlExecutor.cs" caret="2160" fromTop="43" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:UnitOfWork.cs" caret="1377" fromTop="17" />
+      <File id="A39517D4-00B4-4CE3-B578-EEF0A85B51A0/f:Program.cs" caret="1939" fromTop="23" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/f:IntegrationTest.cs" caret="3334" fromTop="25" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/f:BusinessObjectTests.cs" caret="5852" fromTop="26" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Sessions/f:SessionFactoryFactory.cs" caret="1607" fromTop="15" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="2087" fromTop="23" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/f:SessionContainer.cs" caret="2038" fromTop="20" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:CriteriaMock.cs" caret="3743" fromTop="17" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/f:Repository.cs" caret="1375" fromTop="27" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="1649" fromTop="29" />
     </RecentFiles>
     <RecentEdits>
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/f:BusinessObjectTests.cs" caret="1866" fromTop="33" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="724" fromTop="15" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/f:BusinessObjectTests.cs" caret="5473" fromTop="21" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="1912" fromTop="13" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/f:SessionContainer.cs" caret="366" fromTop="9" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/f:SessionContainer.cs" caret="1384" fromTop="35" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="711" fromTop="12" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="2110" fromTop="35" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="601" fromTop="10" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="267" fromTop="6" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="473" fromTop="11" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="111" fromTop="1" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="1510" fromTop="25" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="1047" fromTop="14" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="2060" fromTop="28" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="1823" fromTop="28" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="1624" fromTop="24" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/f:Repository.cs" caret="1325" fromTop="25" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:CriteriaMock.cs" caret="790" fromTop="23" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:CriteriaMock.cs" caret="773" fromTop="25" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:CriteriaMock.cs" caret="3989" fromTop="23" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/f:BusinessObjectTests.cs" caret="5581" fromTop="23" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="2296" fromTop="46" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="2026" fromTop="35" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="1850" fromTop="27" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:CriteriaMock.cs" caret="3726" fromTop="24" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="1137" fromTop="8" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="1339" fromTop="12" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="855" fromTop="28" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Sessions/f:SessionFactoryFactory.cs" caret="1607" fromTop="15" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="1649" fromTop="29" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -24,4 +78,207 @@
     <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="BusinessObjectClassMap" priority="0" />
+      <Item value="public" priority="6" />
+      <Item value="string" priority="3" />
+      <Item value="ctor" priority="1" />
+      <Item value="BookDatabase.Api" priority="1" />
+      <Item value="static" priority="1" />
+      <Item value="return" priority="4" />
+      <Item value="new" priority="18" />
+      <Item value="User" priority="0" />
+      <Item value="UserName" priority="2" />
+      <Item value="FirstName" priority="1" />
+      <Item value="LastName" priority="1" />
+      <Item value="Nhibernate" priority="0" />
+      <Item value="IRepository" priority="0" />
+      <Item value="User`0" priority="2" />
+      <Item value="int" priority="0" />
+      <Item value="DisposeSession`0" priority="1" />
+      <Item value="session" priority="0" />
+      <Item value="null" priority="1" />
+      <Item value="sessionLock" priority="0" />
+      <Item value="SessionContainer`0" priority="0" />
+      <Item value="IUserRepository`0" priority="1" />
+      <Item value="Session" priority="5" />
+      <Item value="userName" priority="0" />
+      <Item value="attributes" priority="0" />
+      <Item value="Map`0" priority="0" />
+      <Item value="password" priority="0" />
+      <Item value="users" priority="1" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="2" />
+      <Item value="Linq" priority="0" />
+      <Item value="Password" priority="1" />
+      <Item value="var" priority="13" />
+      <Item value="userRepository" priority="1" />
+      <Item value="ConfigurationFile" priority="5" />
+      <Item value="Mock`0" priority="2" />
+      <Item value="typeof" priority="0" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="DatabaseConfiguration" priority="0" />
+      <Item value="SessionFactoryFactory`0" priority="0" />
+      <Item value="sessionFactoryFactory" priority="3" />
+      <Item value="configurationFile" priority="4" />
+      <Item value="foreach" priority="0" />
+      <Item value="in" priority="0" />
+      <Item value="cw" priority="1" />
+      <Item value="user" priority="1" />
+      <Item value="IUnitOfWork`0" priority="0" />
+      <Item value="entity" priority="0" />
+      <Item value="private" priority="6" />
+      <Item value="item" priority="0" />
+      <Item value="Base64FormattingOptions`0" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="ExecuteOperationWithRetry`0" priority="1" />
+      <Item value="readonly" priority="1" />
+      <Item value="object" priority="3" />
+      <Item value="void" priority="1" />
+      <Item value="ConfigureCurrentTransaction`0" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="currentTransaction" priority="5" />
+      <Item value="bool" priority="0" />
+      <Item value="lock" priority="1" />
+      <Item value="currentTransactionLock" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="unitOfWork" priority="3" />
+      <Item value="UnitOfWork" priority="0" />
+      <Item value="Logger" priority="1" />
+      <Item value="logger" priority="1" />
+      <Item value="SessionFactoryFactory" priority="0" />
+      <Item value="Id" priority="1" />
+      <Item value="InvalidOperationException`0" priority="0" />
+      <Item value="sqlExecutor" priority="0" />
+      <Item value="Repositories" priority="1" />
+      <Item value="RepositoryTestHelper`0" priority="0" />
+      <Item value="Tests" priority="0" />
+      <Item value="where" priority="1" />
+      <Item value="Repository" priority="1" />
+      <Item value="TBusinessObject`0" priority="1" />
+      <Item value="BusinessObject`0" priority="1" />
+      <Item value="TRepository`0" priority="0" />
+      <Item value="BookDatabase" priority="0" />
+      <Item value="Api" priority="0" />
+      <Item value="Configuration" priority="0" />
+      <Item value="IApiConfigurationFile`0" priority="0" />
+      <Item value="configurationFileMock" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="TestRepository`0" priority="0" />
+      <Item value="target" priority="0" />
+      <Item value="sessionFactoryFactoryMock" priority="0" />
+      <Item value="ISessionFactory`0" priority="0" />
+      <Item value="sessionFactoryMock" priority="1" />
+      <Item value="sessionMock" priority="2" />
+      <Item value="AssemblyCleanupAttribute`0" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="result" priority="0" />
+      <Item value="T`0" priority="2" />
+      <Item value="BusinessObjects" priority="0" />
+      <Item value="IList" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="items" priority="4" />
+      <Item value="TestBusinessObject`0" priority="1" />
+      <Item value="T" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="TestBusinessObject" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="TestClass" priority="0" />
+      <Item value="Microsoft" priority="0" />
+      <Item value="VisualBasic" priority="0" />
+      <Item value="TestTools" priority="0" />
+      <Item value="UnitTesting" priority="0" />
+      <Item value="TestMethod" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.BusinessObjects.Users.User">
+      <Item value="FirstName" priority="1" />
+      <Item value="LastName" priority="1" />
+      <Item value="UserName" priority="1" />
+      <Item value="Password" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Testing.PersistenceSpecification`1">
+      <Item value="CheckProperty`2" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="QueryOver`1" priority="0" />
+      <Item value="SaveOrUpdate`0" priority="0" />
+      <Item value="BeginTransaction`0" priority="1" />
+      <Item value="Delete`0" priority="0" />
+      <Item value="CreateCriteria`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.IQueryOver`2">
+      <Item value="Where`0" priority="0" />
+      <Item value="Left" priority="0" />
+      <Item value="List`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyPart">
+      <Item value="Length`0" priority="0" />
+      <Item value="Not" priority="0" />
+      <Item value="Nullable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Data.Repositories.Users.UserRepository">
+      <Item value="Logger" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Object" priority="9" />
+      <Item value="Setup`1" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Assembly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Data.Repositories.Users.IUserRepository">
+      <Item value="Get`0" priority="0" />
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Configuration.IApiConfigurationFile">
+      <Item value="DatabaseOperationRetries" priority="0" />
+      <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`16" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Data.SessionContainer">
+      <Item value="ExecuteOperationWithRetry`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ITransaction">
+      <Item value="Commit`0" priority="0" />
+      <Item value="Rollback`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Data.Transactions.IUnitOfWork">
+      <Item value="SaveOrUpdate`0" priority="0" />
+      <Item value="Commit`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Tests.DataHelpers.MasterSqlExecutor">
+      <Item value="DatabaseExists" priority="0" />
+      <Item value="DeleteDatabase`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BookDatabase.Api.Tests.Data.Repositories.RepositoryHelper">
+      <Item value="Get`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Nhibernate.Sessions.SessionFactoryFactory">
+      <Item value="GetInstance`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
+      <Item value="OpenSession`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Tests.Data.Repositories.RepositoryTests+TestRepository">
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="AreEqual`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Tests.Data.Repositories.CriteriaMock`1">
+      <Item value="items" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

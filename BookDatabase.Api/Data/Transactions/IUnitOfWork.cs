@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 
 using System;
+using BookDatabase.Api.BusinessObjects;
 
 namespace BookDatabase.Api.Data.Transactions
 {
@@ -16,21 +17,16 @@ namespace BookDatabase.Api.Data.Transactions
         #region Methods
 
         /// <summary>
-        /// Saves an entity
+        /// Saves an item
         /// </summary>
-        /// <param name="entity">The entity to save</param>
-        void AddOrUpdate(object entity);
+        /// <param name="item">The entity to save</param>
+        void SaveOrUpdate(BusinessObject item);
 
         /// <summary>
-        /// Deletes an entity
+        /// Deletes an item
         /// </summary>
-        /// <param name="entity">The entity to delete</param>
-        void Delete(object entity);
-
-        /// <summary>
-        /// Starts a transaction
-        /// </summary>
-        void StartTransaction();
+        /// <param name="item">The item to delete</param>
+        void Delete(BusinessObject item);
 
         /// <summary>
         /// Rolls back the current transaction

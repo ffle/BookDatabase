@@ -137,7 +137,7 @@ namespace BookDatabase.Api.Tests.BusinessObjects
 
         #endregion
 
-        #region Private Classes
+        #region Public Classes
 
         /// <summary>
         /// Test business object

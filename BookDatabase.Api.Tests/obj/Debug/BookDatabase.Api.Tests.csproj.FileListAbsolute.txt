@@ -23,3 +23,8 @@ C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\log4net.xml
 C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\NHibernate.xml
 C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Iesi.Collections.dll
 C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Iesi.Collections.xml
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Castle.Core.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Castle.Core.xml
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Moq.dll
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Moq.pdb
+C:\Personal\BookDatabase\BookDatabase.Api.Tests\bin\Debug\Moq.xml

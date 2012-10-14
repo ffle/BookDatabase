@@ -3,6 +3,15 @@
   <project key="-450208240">
     <configuration>DEBUG;TRACE</configuration>
   </project>
+  <sourcecode name="FilterConfig.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/08/2012 09:37:39</timestamp>
+    <milliseconds>964</milliseconds>
+    <violations />
+  </sourcecode>
   <sourcecode name="RouteConfig.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
@@ -12,13 +21,13 @@
     <milliseconds>999</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="FilterConfig.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="Global.asax.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
-    <timestamp>10/08/2012 09:37:39</timestamp>
-    <milliseconds>964</milliseconds>
+    <timestamp>10/08/2012 09:37:40</timestamp>
+    <milliseconds>59</milliseconds>
     <violations />
   </sourcecode>
   <sourcecode name="WebApiConfig.cs" parser="StyleCop.CSharp.CsParser">
@@ -30,15 +39,6 @@
     <milliseconds>14</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="SolutionInfo.cs" parser="StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>10/08/2012 09:37:40</timestamp>
-      <milliseconds>707</milliseconds>
-    </settings>
-    <timestamp>10/08/2012 09:37:40</timestamp>
-    <milliseconds>709</milliseconds>
-    <violations />
-  </sourcecode>
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
@@ -48,13 +48,13 @@
     <milliseconds>64</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="Global.asax.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="SolutionInfo.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
     <timestamp>10/08/2012 09:37:40</timestamp>
-    <milliseconds>59</milliseconds>
+    <milliseconds>709</milliseconds>
     <violations />
   </sourcecode>
 </stylecopresultscache>

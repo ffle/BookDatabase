@@ -25,6 +25,7 @@ namespace BookDatabase.Api.Tests.BusinessObjects.Users
                 return new User
                 {
                     UserName = "UserName1",
+                    Password = "Password",
                     FirstName = "FirstName",
                     LastName = "LastName",
                 };

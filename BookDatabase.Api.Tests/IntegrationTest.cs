@@ -6,7 +6,7 @@
 
 using System;
 using BookDatabase.Api.BusinessObjects.Users;
-using BookDatabase.Api.Nhibernate;
+using BookDatabase.Api.Nhibernate.Conventions;
 using BookDatabase.Api.Tests.Configuration;
 using BookDatabase.Api.Tests.DataHelpers;
 using FluentNHibernate.Cfg;
@@ -122,6 +122,7 @@ namespace BookDatabase.Api.Tests
             var sqlExecutor = new MasterSqlExecutor();
             if (!sqlExecutor.DatabaseExists)
             {
+                sqlExecutor.DeleteDatabase();
                 sqlExecutor.CreateDatabase();
             }
 

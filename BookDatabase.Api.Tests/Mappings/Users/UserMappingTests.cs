@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="UserMappingTest.cs" company="Steve Barker">
+// <copyright file="UserMappingTests.cs" company="Steve Barker">
 // Copyright Steve Barker 2012
 // </copyright>
 //-----------------------------------------------------------------------
@@ -16,7 +16,7 @@ namespace BookDatabase.Api.Tests.Mappings.Users
     /// Tests for UserMapping
     /// </summary>
     [TestClass]
-    public class UserMappingTest : IntegrationTest
+    public class UserMappingTests : IntegrationTest
     {
         /// <summary>
         /// Tests mappings
@@ -26,6 +26,7 @@ namespace BookDatabase.Api.Tests.Mappings.Users
         {
             new PersistenceSpecification<User>(Session)
                 .CheckProperty(x => x.UserName, "UserName")
+                .CheckProperty(x => x.Password, "Password")
                 .CheckProperty(x => x.FirstName, "FirstName")
                 .CheckProperty(x => x.LastName, "LastName")
                 .VerifyTheMappings();

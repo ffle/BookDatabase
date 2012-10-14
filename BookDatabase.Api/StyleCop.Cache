@@ -3,40 +3,58 @@
   <project key="1024191513">
     <configuration>DEBUG;TRACE</configuration>
   </project>
+  <sourcecode name="IRepository.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/13/2012 13:00:11</timestamp>
+    <milliseconds>122</milliseconds>
+    <violations />
+  </sourcecode>
   <sourcecode name="User.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
-    <timestamp>10/08/2012 09:37:39</timestamp>
-    <milliseconds>372</milliseconds>
+    <timestamp>10/11/2012 19:19:12</timestamp>
+    <milliseconds>424</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="SolutionInfo.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="Repository.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
-    <timestamp>10/08/2012 09:37:40</timestamp>
-    <milliseconds>709</milliseconds>
+    <timestamp>10/13/2012 13:00:11</timestamp>
+    <milliseconds>132</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="UserRepository.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
-    <timestamp>10/08/2012 09:37:39</timestamp>
-    <milliseconds>392</milliseconds>
+    <timestamp>10/11/2012 19:20:29</timestamp>
+    <milliseconds>374</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="CustomForeignKeyConvention.cs" parser="StyleCop.CSharp.CsParser">
+  <sourcecode name="IApiConfigurationFile.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
-    <timestamp>10/09/2012 08:57:00</timestamp>
-    <milliseconds>869</milliseconds>
+    <timestamp>10/11/2012 19:35:20</timestamp>
+    <milliseconds>421</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="IUnitOfWork.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/09/2012 22:51:14</timestamp>
+    <milliseconds>820</milliseconds>
     <violations />
   </sourcecode>
   <sourcecode name="BusinessObject.cs" parser="StyleCop.CSharp.CsParser">
@@ -48,6 +66,51 @@
     <milliseconds>371</milliseconds>
     <violations />
   </sourcecode>
+  <sourcecode name="IUserRepository.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/09/2012 22:43:14</timestamp>
+    <milliseconds>452</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ISessionFactoryFactory.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/09/2012 22:18:23</timestamp>
+    <milliseconds>824</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="CustomForeignKeyConvention.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/09/2012 22:18:52</timestamp>
+    <milliseconds>423</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SessionFactoryFactory.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/13/2012 12:55:48</timestamp>
+    <milliseconds>159</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SolutionInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/08/2012 09:37:40</timestamp>
+    <milliseconds>709</milliseconds>
+    <violations />
+  </sourcecode>
   <sourcecode name="ConfigurationFile.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
@@ -55,6 +118,42 @@
     </settings>
     <timestamp>10/09/2012 08:46:25</timestamp>
     <milliseconds>660</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="UserMapping.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/11/2012 19:18:02</timestamp>
+    <milliseconds>301</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="SessionContainer.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/11/2012 19:11:07</timestamp>
+    <milliseconds>536</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/08/2012 09:37:39</timestamp>
+    <milliseconds>392</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="BusinessObjectClassMap.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>10/09/2012 21:55:38</timestamp>
+    <milliseconds>424</milliseconds>
     <violations />
   </sourcecode>
 </stylecopresultscache>

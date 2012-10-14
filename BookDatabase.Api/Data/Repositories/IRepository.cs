@@ -5,6 +5,7 @@
 //-----------------------------------------------------------------------
 
 using System;
+using System.Collections.Generic;
 using BookDatabase.Api.BusinessObjects;
 
 namespace BookDatabase.Api.Data.Repositories
@@ -24,6 +25,12 @@ namespace BookDatabase.Api.Data.Repositories
         /// <param name="id">The Id of the object to retrieve</param>
         /// <returns>The object matching the Id, or null</returns>
         T GetById(int id);
+
+        /// <summary>
+        /// Gets all items in the repository
+        /// </summary>
+        /// <returns>All items in the repository</returns>
+        IEnumerable<T> GetAll();
 
         #endregion
     }

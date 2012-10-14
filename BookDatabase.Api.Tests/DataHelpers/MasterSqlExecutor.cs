@@ -62,11 +62,19 @@ namespace BookDatabase.Api.Tests.DataHelpers
         #region Public Methods
 
         /// <summary>
-        /// Creates the Repeats4u database
+        /// Creates the BookDatabase database
         /// </summary>
         public void CreateDatabase()
         {
             this.ExecuteNonQuery("CREATE DATABASE BookDatabase", CommandType.Text);
+        }
+
+        /// <summary>
+        /// Deletes the BookDatabase database
+        /// </summary>
+        public void DeleteDatabase()
+        {
+            this.ExecuteNonQuery("DELETE DATABASE BookDatabase", CommandType.Text);
         }
 
         #endregion
