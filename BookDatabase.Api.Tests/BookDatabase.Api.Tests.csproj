@@ -76,6 +76,8 @@
     <Compile Include="DataHelpers\SqlExecutor.cs" />
     <Compile Include="Data\Repositories\RepositoryHelper.cs" />
     <Compile Include="Data\Repositories\RepositoryTests.cs" />
+    <Compile Include="Data\Repositories\Users\UserRepositoryTests.cs" />
+    <Compile Include="Data\Transactions\UnitOfWorkHelper.cs" />
     <Compile Include="Data\Transactions\UnitOfWorkTests.cs" />
     <Compile Include="IntegrationTest.cs" />
     <Compile Include="Mappings\Users\UserMappingTests.cs" />

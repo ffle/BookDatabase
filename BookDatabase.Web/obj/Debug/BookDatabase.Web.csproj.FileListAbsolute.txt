@@ -60,3 +60,13 @@ C:\Personal\BookDatabase\BookDatabase.Web\bin\System.Web.WebPages.Razor.xml
 C:\Personal\BookDatabase\BookDatabase.Web\obj\Debug\ResolveAssemblyReference.cache
 C:\Personal\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.dll
 C:\Personal\BookDatabase\BookDatabase.Web\obj\Debug\BookDatabase.Web.pdb
+C:\Personal\BookDatabase\BookDatabase.Web\bin\BookDatabase.Api.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\FluentNHibernate.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\NHibernate.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Castle.Core.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Iesi.Collections.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\BookDatabase.Api.pdb
+C:\Personal\BookDatabase\BookDatabase.Web\bin\FluentNHibernate.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\NHibernate.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Castle.Core.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Iesi.Collections.xml

@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookDatabase.Api.Tests", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookDatabase.Web.Tests", "BookDatabase.Web.Tests\BookDatabase.Web.Tests.csproj", "{6ECBCE12-C59D-42A4-AB26-55E5B4F1B103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delete", "Delete\Delete.csproj", "{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}"
-EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = BookDatabase.vsmdi
@@ -74,16 +72,6 @@ Global
 		{6ECBCE12-C59D-42A4-AB26-55E5B4F1B103}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{6ECBCE12-C59D-42A4-AB26-55E5B4F1B103}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6ECBCE12-C59D-42A4-AB26-55E5B4F1B103}.Release|x86.ActiveCfg = Release|Any CPU
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Debug|x86.ActiveCfg = Debug|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Debug|x86.Build.0 = Debug|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Release|Any CPU.ActiveCfg = Release|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Release|Mixed Platforms.Build.0 = Release|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Release|x86.ActiveCfg = Release|x86
-		{A39517D4-00B4-4CE3-B578-EEF0A85B51A0}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

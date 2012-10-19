@@ -40,8 +40,8 @@ namespace BookDatabase.Api.Tests.Mappings.Users
         public void UniqueNameTest()
         {
             // Arrange:
-            Session.Save(UserHelper.ValidUser1);
-            Session.Save(UserHelper.ValidUser1);
+            Session.Save(UserHelper.GetNewValidUser("DuplicateUserName"));
+            Session.Save(UserHelper.GetNewValidUser("DuplicateUserName"));
         }
     }
 }

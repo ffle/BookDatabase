@@ -111,6 +111,9 @@ namespace BookDatabase.Api.Data.Transactions
             }
         }
 
+        /// <summary>
+        /// Disposes of the current transaction
+        /// </summary>
         private void DisposeCurrentTransaction()
         {
             if (currentTransaction != null)

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3d7a1ea4-f6eb-452d-81bd-814b0076f522" name="Steve@UK017284 2012-10-18 18:53:20" runUser="UK017284\Steve" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2d87ad09-0d8b-450c-b43f-7b624737ef90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Steve_UK017284 2012-10-18 18_53_20">
+      <DeploymentItem filename="C:\Personal\BookDatabase\packages\log4net.2.0.0\lib\net40-full\log4net.dll" />
+      <DeploymentItem filename="C:\Personal\BookDatabase\packages\Castle.Core.3.1.0\lib\net35\Castle.Core.dll" />
+      <DeploymentItem filename="C:\Personal\BookDatabase\packages\FluentNHibernate.1.3.0.733\lib\FluentNHibernate.dll" />
+      <DeploymentItem filename="C:\Personal\BookDatabase\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll" />
+      <DeploymentItem filename="C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\BookDatabase.Api.dll" />
+      <DeploymentItem filename="C:\Personal\BookDatabase\packages\Moq.4.0.10827\lib\NET40\Moq.dll" />
+      <DeploymentItem filename="C:\Personal\BookDatabase\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="C:\Personal\BookDatabase\BookDatabase.Web\bin\BookDatabase.Web.dll" pdbFile="C:\Personal\BookDatabase\BookDatabase.Web\bin\BookDatabase.Web.instr.pdb" instrumentInPlace="true" outputDirectory="BookDatabase.Web\Bin" />
+                  <CodeCoverageItem binaryFile="C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\BookDatabase.Api.dll" pdbFile="C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\BookDatabase.Api.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+                <AspNet>
+                  <AspNetCodeCoverageItem id="d5ce6748-635c-4b93-8967-bb199c6a3ae5" name="BookDatabase.Web" applicationRoot="/" url="http://localhost:0/" />
+                </AspNet>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-18T18:53:20.8415913+01:00" queuing="2012-10-18T18:53:21.7615926+01:00" start="2012-10-18T18:53:21.8215927+01:00" finish="2012-10-18T18:53:29.4516033+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="16" executed="16" passed="16" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <ResultFiles>
+      <ResultFile path="UK017284\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRollbackWithNoOperations" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="d529485d-fa2f-1c4e-174f-6978fbbfcc07">
+      <Execution id="f82009e9-c951-4119-8253-15e7ee4d3398" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRollbackWithNoOperations" />
+    </UnitTest>
+    <UnitTest name="TestCommitMultipleTransactions" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="1e395a5e-32fa-339f-4c02-354f2f15fe03">
+      <Execution id="1eb12530-a5d3-4042-9bba-86b723a0c7d5" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCommitMultipleTransactions" />
+    </UnitTest>
+    <UnitTest name="TestDeleteAndRollback" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="d6296fe5-485b-883b-9fe1-03a2f80ffcb3">
+      <Execution id="1f1836a2-7bf1-4ce6-8be9-9975b0c1af09" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteAndRollback" />
+    </UnitTest>
+    <UnitTest name="TestCommitMultipleOperations" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="2eb6f7d4-1d64-4f3a-503a-034326055df8">
+      <Execution id="e8cf1786-9e58-4cb9-9940-0742d54f792c" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCommitMultipleOperations" />
+    </UnitTest>
+    <UnitTest name="TestDeleteAndCommit" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="f4d46f45-8838-64b4-ba12-27783409ad91">
+      <Execution id="9bd404e7-2a80-4a77-b9d3-d81555816f11" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDeleteAndCommit" />
+    </UnitTest>
+    <UnitTest name="TestCommitWithNoOperations" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="3c4e1c94-1f91-0d54-0766-68dba2980b33">
+      <Execution id="b37029ac-eeb2-466e-8798-12581a6d0a25" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCommitWithNoOperations" />
+    </UnitTest>
+    <UnitTest name="UniqueNameTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="0ffb65c9-a283-8957-c4cc-3455315a6cfb">
+      <Execution id="81c3a18e-1cb7-40a2-83f5-60c09eb6fa6e" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Mappings.Users.UserMappingTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UniqueNameTest" />
+    </UnitTest>
+    <UnitTest name="TestSaveAndCommit" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="20fb7e57-9cdd-b09f-c18a-6c91d8874768">
+      <Execution id="d91cee1e-70b9-4ef4-aecd-af06dce78b1c" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSaveAndCommit" />
+    </UnitTest>
+    <UnitTest name="GetAllTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="9f05c7b2-0675-d57d-0fcc-ae4480dd4d4c">
+      <Execution id="4dc3ef6e-47d2-436d-921f-d81ff348834d" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Repositories.RepositoryTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllTest" />
+    </UnitTest>
+    <UnitTest name="GetByIdTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="29fc06c4-929c-34a4-7fdb-b207bcf5e089">
+      <Execution id="1de02b8a-1d2e-41c0-9b2f-3ae825ddaf2d" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Repositories.RepositoryTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetByIdTest" />
+    </UnitTest>
+    <UnitTest name="IsNewTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="69ccb285-2f44-6656-6e78-b6158a4c956d">
+      <Execution id="42010332-9212-4cb0-bc96-112b1211bc52" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.BusinessObjects.BusinessObjectTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsNewTest" />
+    </UnitTest>
+    <UnitTest name="TestSaveAndRollback" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="b569f32b-9a57-6258-f5c2-759fd6bc77db">
+      <Execution id="ca7d22e5-6fc7-4856-855b-c66be45d2c85" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Data.Transactions.UnitOfWorkTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSaveAndRollback" />
+    </UnitTest>
+    <UnitTest name="MappingsTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="0aeda2e7-79a3-7ffe-0672-3e6cf9b29613">
+      <Execution id="6631790c-502e-421f-8644-6d21b81d695b" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.Mappings.Users.UserMappingTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MappingsTest" />
+    </UnitTest>
+    <UnitTest name="GetHashCodeTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="0835bebd-c3eb-6235-7b4f-1560788432b1">
+      <Execution id="b1bfb6ea-9a11-4593-9ece-3d07a198b6c2" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.BusinessObjects.BusinessObjectTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetHashCodeTest" />
+    </UnitTest>
+    <UnitTest name="EqualsMethodsTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="feb8d5ee-92de-5812-d4cd-efb5920e8445">
+      <Execution id="6616f7f7-22b4-453c-94fe-07f7fad3ddba" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.BusinessObjects.BusinessObjectTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EqualsMethodsTest" />
+    </UnitTest>
+    <UnitTest name="EqualityOperatorsTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" id="5f968232-ea73-59ef-f037-1c482ffec7f9">
+      <Execution id="b962db8f-0571-45cb-afa4-858325bf6006" />
+      <TestMethod codeBase="C:/Personal/BookDatabase/BookDatabase.Api.Tests/bin/Debug/BookDatabase.Api.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BookDatabase.Api.Tests.BusinessObjects.BusinessObjectTests, BookDatabase.Api.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EqualityOperatorsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Unit Tests" id="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="5f968232-ea73-59ef-f037-1c482ffec7f9" name="EqualityOperatorsTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="1e395a5e-32fa-339f-4c02-354f2f15fe03" name="TestCommitMultipleTransactions" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="3c4e1c94-1f91-0d54-0766-68dba2980b33" name="TestCommitWithNoOperations" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="69ccb285-2f44-6656-6e78-b6158a4c956d" name="IsNewTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="29fc06c4-929c-34a4-7fdb-b207bcf5e089" name="GetByIdTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="2eb6f7d4-1d64-4f3a-503a-034326055df8" name="TestCommitMultipleOperations" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="9f05c7b2-0675-d57d-0fcc-ae4480dd4d4c" name="GetAllTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="0835bebd-c3eb-6235-7b4f-1560788432b1" name="GetHashCodeTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d529485d-fa2f-1c4e-174f-6978fbbfcc07" name="TestRollbackWithNoOperations" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="f4d46f45-8838-64b4-ba12-27783409ad91" name="TestDeleteAndCommit" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="feb8d5ee-92de-5812-d4cd-efb5920e8445" name="EqualsMethodsTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="b569f32b-9a57-6258-f5c2-759fd6bc77db" name="TestSaveAndRollback" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="20fb7e57-9cdd-b09f-c18a-6c91d8874768" name="TestSaveAndCommit" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d6296fe5-485b-883b-9fe1-03a2f80ffcb3" name="TestDeleteAndRollback" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+    <TestList name="Integration Tests" id="79b14a06-edb4-4e10-9bec-ad659ff57ee9" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="0ffb65c9-a283-8957-c4cc-3455315a6cfb" name="UniqueNameTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="0aeda2e7-79a3-7ffe-0672-3e6cf9b29613" name="MappingsTest" storage="c:\personal\bookdatabase\bookdatabase.api.tests\bin\debug\bookdatabase.api.tests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0ffb65c9-a283-8957-c4cc-3455315a6cfb" executionId="81c3a18e-1cb7-40a2-83f5-60c09eb6fa6e" testListId="79b14a06-edb4-4e10-9bec-ad659ff57ee9" />
+    <TestEntry testId="0aeda2e7-79a3-7ffe-0672-3e6cf9b29613" executionId="6631790c-502e-421f-8644-6d21b81d695b" testListId="79b14a06-edb4-4e10-9bec-ad659ff57ee9" />
+    <TestEntry testId="5f968232-ea73-59ef-f037-1c482ffec7f9" executionId="b962db8f-0571-45cb-afa4-858325bf6006" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="0835bebd-c3eb-6235-7b4f-1560788432b1" executionId="b1bfb6ea-9a11-4593-9ece-3d07a198b6c2" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="d6296fe5-485b-883b-9fe1-03a2f80ffcb3" executionId="1f1836a2-7bf1-4ce6-8be9-9975b0c1af09" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="feb8d5ee-92de-5812-d4cd-efb5920e8445" executionId="6616f7f7-22b4-453c-94fe-07f7fad3ddba" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="1e395a5e-32fa-339f-4c02-354f2f15fe03" executionId="1eb12530-a5d3-4042-9bba-86b723a0c7d5" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="3c4e1c94-1f91-0d54-0766-68dba2980b33" executionId="b37029ac-eeb2-466e-8798-12581a6d0a25" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="69ccb285-2f44-6656-6e78-b6158a4c956d" executionId="42010332-9212-4cb0-bc96-112b1211bc52" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="b569f32b-9a57-6258-f5c2-759fd6bc77db" executionId="ca7d22e5-6fc7-4856-855b-c66be45d2c85" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="f4d46f45-8838-64b4-ba12-27783409ad91" executionId="9bd404e7-2a80-4a77-b9d3-d81555816f11" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="29fc06c4-929c-34a4-7fdb-b207bcf5e089" executionId="1de02b8a-1d2e-41c0-9b2f-3ae825ddaf2d" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="2eb6f7d4-1d64-4f3a-503a-034326055df8" executionId="e8cf1786-9e58-4cb9-9940-0742d54f792c" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="d529485d-fa2f-1c4e-174f-6978fbbfcc07" executionId="f82009e9-c951-4119-8253-15e7ee4d3398" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="20fb7e57-9cdd-b09f-c18a-6c91d8874768" executionId="d91cee1e-70b9-4ef4-aecd-af06dce78b1c" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+    <TestEntry testId="9f05c7b2-0675-d57d-0fcc-ae4480dd4d4c" executionId="4dc3ef6e-47d2-436d-921f-d81ff348834d" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="81c3a18e-1cb7-40a2-83f5-60c09eb6fa6e" testId="0ffb65c9-a283-8957-c4cc-3455315a6cfb" testName="UniqueNameTest" computerName="UK017284" duration="00:00:01.7584501" startTime="2012-10-18T18:53:24.9915971+01:00" endTime="2012-10-18T18:53:26.9915999+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="79b14a06-edb4-4e10-9bec-ad659ff57ee9" relativeResultsDirectory="81c3a18e-1cb7-40a2-83f5-60c09eb6fa6e">
+      <Output>
+        <StdOut>NHibernate: INSERT INTO [User] (UserName, Password, FirstName, LastName) VALUES (@p0, @p1, @p2, @p3); select SCOPE_IDENTITY();@p0 = 'DuplicateUserName' [Type: String (4000)], @p1 = 'Password' [Type: String (4000)], @p2 = 'FirstName' [Type: String (4000)], @p3 = 'LastName' [Type: String (4000)]
+NHibernate: INSERT INTO [User] (UserName, Password, FirstName, LastName) VALUES (@p0, @p1, @p2, @p3); select SCOPE_IDENTITY();@p0 = 'DuplicateUserName' [Type: String (4000)], @p1 = 'Password' [Type: String (4000)], @p2 = 'FirstName' [Type: String (4000)], @p3 = 'LastName' [Type: String (4000)]</StdOut>
+        <StdErr>log4net:ERROR Failed to find configuration section 'log4net' in the application's .config file. Check your .config file for the &lt;log4net&gt; and &lt;configSections&gt; elements. The configuration section should look like: &lt;section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler,log4net" /&gt;</StdErr>
+        <DebugTrace>log4net:ERROR Failed to find configuration section 'log4net' in the application's .config file. Check your .config file for the &lt;log4net&gt; and &lt;configSections&gt; elements. The configuration section should look like: &lt;section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler,log4net" /&gt;
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6631790c-502e-421f-8644-6d21b81d695b" testId="0aeda2e7-79a3-7ffe-0672-3e6cf9b29613" testName="MappingsTest" computerName="UK017284" duration="00:00:00.1138561" startTime="2012-10-18T18:53:26.9915999+01:00" endTime="2012-10-18T18:53:27.1116001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="79b14a06-edb4-4e10-9bec-ad659ff57ee9" relativeResultsDirectory="6631790c-502e-421f-8644-6d21b81d695b">
+      <Output>
+        <StdOut>NHibernate: INSERT INTO [User] (UserName, Password, FirstName, LastName) VALUES (@p0, @p1, @p2, @p3); select SCOPE_IDENTITY();@p0 = 'UserName' [Type: String (4000)], @p1 = 'Password' [Type: String (4000)], @p2 = 'FirstName' [Type: String (4000)], @p3 = 'LastName' [Type: String (4000)]
+NHibernate: SELECT user0_.Id as Id0_0_, user0_.UserName as UserName0_0_, user0_.Password as Password0_0_, user0_.FirstName as FirstName0_0_, user0_.LastName as LastName0_0_ FROM [User] user0_ WHERE user0_.Id=@p0;@p0 = 3 [Type: Int32 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b962db8f-0571-45cb-afa4-858325bf6006" testId="5f968232-ea73-59ef-f037-1c482ffec7f9" testName="EqualityOperatorsTest" computerName="UK017284" duration="00:00:00.0028600" startTime="2012-10-18T18:53:27.1116001+01:00" endTime="2012-10-18T18:53:27.1216001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="b962db8f-0571-45cb-afa4-858325bf6006">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1bfb6ea-9a11-4593-9ece-3d07a198b6c2" testId="0835bebd-c3eb-6235-7b4f-1560788432b1" testName="GetHashCodeTest" computerName="UK017284" duration="00:00:00.0023788" startTime="2012-10-18T18:53:27.1216001+01:00" endTime="2012-10-18T18:53:27.1316001+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="b1bfb6ea-9a11-4593-9ece-3d07a198b6c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f1836a2-7bf1-4ce6-8be9-9975b0c1af09" testId="d6296fe5-485b-883b-9fe1-03a2f80ffcb3" testName="TestDeleteAndRollback" computerName="UK017284" duration="00:00:00.4321210" startTime="2012-10-18T18:53:27.1316001+01:00" endTime="2012-10-18T18:53:27.5716007+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="1f1836a2-7bf1-4ce6-8be9-9975b0c1af09">
+    </UnitTestResult>
+    <UnitTestResult executionId="6616f7f7-22b4-453c-94fe-07f7fad3ddba" testId="feb8d5ee-92de-5812-d4cd-efb5920e8445" testName="EqualsMethodsTest" computerName="UK017284" duration="00:00:00.0009668" startTime="2012-10-18T18:53:27.5716007+01:00" endTime="2012-10-18T18:53:27.5716007+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="6616f7f7-22b4-453c-94fe-07f7fad3ddba">
+    </UnitTestResult>
+    <UnitTestResult executionId="1eb12530-a5d3-4042-9bba-86b723a0c7d5" testId="1e395a5e-32fa-339f-4c02-354f2f15fe03" testName="TestCommitMultipleTransactions" computerName="UK017284" duration="00:00:00.0130587" startTime="2012-10-18T18:53:27.5816007+01:00" endTime="2012-10-18T18:53:27.5916007+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="1eb12530-a5d3-4042-9bba-86b723a0c7d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="b37029ac-eeb2-466e-8798-12581a6d0a25" testId="3c4e1c94-1f91-0d54-0766-68dba2980b33" testName="TestCommitWithNoOperations" computerName="UK017284" duration="00:00:00.0012163" startTime="2012-10-18T18:53:27.5916007+01:00" endTime="2012-10-18T18:53:27.6016008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="b37029ac-eeb2-466e-8798-12581a6d0a25">
+    </UnitTestResult>
+    <UnitTestResult executionId="42010332-9212-4cb0-bc96-112b1211bc52" testId="69ccb285-2f44-6656-6e78-b6158a4c956d" testName="IsNewTest" computerName="UK017284" duration="00:00:00.0002559" startTime="2012-10-18T18:53:27.6016008+01:00" endTime="2012-10-18T18:53:27.6016008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="42010332-9212-4cb0-bc96-112b1211bc52">
+    </UnitTestResult>
+    <UnitTestResult executionId="ca7d22e5-6fc7-4856-855b-c66be45d2c85" testId="b569f32b-9a57-6258-f5c2-759fd6bc77db" testName="TestSaveAndRollback" computerName="UK017284" duration="00:00:00.0034444" startTime="2012-10-18T18:53:27.6116008+01:00" endTime="2012-10-18T18:53:27.6116008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="ca7d22e5-6fc7-4856-855b-c66be45d2c85">
+    </UnitTestResult>
+    <UnitTestResult executionId="9bd404e7-2a80-4a77-b9d3-d81555816f11" testId="f4d46f45-8838-64b4-ba12-27783409ad91" testName="TestDeleteAndCommit" computerName="UK017284" duration="00:00:00.0045800" startTime="2012-10-18T18:53:27.6116008+01:00" endTime="2012-10-18T18:53:27.6216008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="9bd404e7-2a80-4a77-b9d3-d81555816f11">
+    </UnitTestResult>
+    <UnitTestResult executionId="1de02b8a-1d2e-41c0-9b2f-3ae825ddaf2d" testId="29fc06c4-929c-34a4-7fdb-b207bcf5e089" testName="GetByIdTest" computerName="UK017284" duration="00:00:00.0080276" startTime="2012-10-18T18:53:27.6216008+01:00" endTime="2012-10-18T18:53:27.6416008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="1de02b8a-1d2e-41c0-9b2f-3ae825ddaf2d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8cf1786-9e58-4cb9-9940-0742d54f792c" testId="2eb6f7d4-1d64-4f3a-503a-034326055df8" testName="TestCommitMultipleOperations" computerName="UK017284" duration="00:00:00.0044266" startTime="2012-10-18T18:53:27.6416008+01:00" endTime="2012-10-18T18:53:27.6516008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="e8cf1786-9e58-4cb9-9940-0742d54f792c">
+    </UnitTestResult>
+    <UnitTestResult executionId="f82009e9-c951-4119-8253-15e7ee4d3398" testId="d529485d-fa2f-1c4e-174f-6978fbbfcc07" testName="TestRollbackWithNoOperations" computerName="UK017284" duration="00:00:00.0011830" startTime="2012-10-18T18:53:27.6516008+01:00" endTime="2012-10-18T18:53:27.6516008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="f82009e9-c951-4119-8253-15e7ee4d3398">
+    </UnitTestResult>
+    <UnitTestResult executionId="d91cee1e-70b9-4ef4-aecd-af06dce78b1c" testId="20fb7e57-9cdd-b09f-c18a-6c91d8874768" testName="TestSaveAndCommit" computerName="UK017284" duration="00:00:00.0034309" startTime="2012-10-18T18:53:27.6516008+01:00" endTime="2012-10-18T18:53:27.6616008+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="d91cee1e-70b9-4ef4-aecd-af06dce78b1c">
+    </UnitTestResult>
+    <UnitTestResult executionId="4dc3ef6e-47d2-436d-921f-d81ff348834d" testId="9f05c7b2-0675-d57d-0fcc-ae4480dd4d4c" testName="GetAllTest" computerName="UK017284" duration="00:00:00.0521745" startTime="2012-10-18T18:53:27.6616008+01:00" endTime="2012-10-18T18:53:27.7216009+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8a28f9f9-b23b-4242-a0eb-f110a4fb49c3" relativeResultsDirectory="4dc3ef6e-47d2-436d-921f-d81ff348834d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

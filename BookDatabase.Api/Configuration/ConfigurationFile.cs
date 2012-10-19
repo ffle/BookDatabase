@@ -29,66 +29,24 @@ namespace BookDatabase.Api.Configuration
         #region Protected Methods
 
         /// <summary>
-        /// Gets a built-in typed value from the configuration file
+        /// Gets a string value from the configuration file
         /// </summary>
-        /// <typeparam name="T">The type of the value to get</typeparam>
         /// <param name="key">The name of the value</param>
-        /// <returns>The configuration value</returns>
-        protected T GetValue<T>(string key)
+        /// <returns>The configuration string value</returns>
+        protected string GetString(string key)
         {
-            try
-            {
-                return (T)reader.GetValue(key, typeof(T));
-            }
-            catch (Exception e)
-            {
-                string m = string.Format(CultureInfo.CurrentCulture, "An error occurred while reading key {0}: {1}", key, e.Message);
-                throw new ConfigurationErrorsException(m);
-            }
+            return (string)reader.GetValue(key, typeof(string));
         }
 
         /// <summary>
-        /// Gets a directory from the configuration file
+        /// Gets an int from the configuration file
         /// </summary>
-        /// <param name="key">The name of the key the directory path is stored in</param>
-        /// <returns>A configured DirectoryInfo object</returns>
-        protected DirectoryInfo GetDirectoryInfo(string key)
+        /// <param name="key">The name of the key the int is stored in</param>
+        /// <returns>The corresponding int value</returns>
+        protected int GetInt(string key)
         {
-            var path = GetValue<string>(key);
-            return new DirectoryInfo(path);
-        }
-
-        /// <summary>
-        /// Gets a file from the configuration file
-        /// </summary>
-        /// <param name="key">The name of the key the file path is stored in</param>
-        /// <returns>A configured FileInfo object</returns>
-        protected FileInfo GetFileInfo(string key)
-        {
-            var path = GetValue<string>(key);
-            return new FileInfo(path);
-        }
-
-        /// <summary>
-        /// Gets a URI from the configuration file
-        /// </summary>
-        /// <param name="key">The name of the key the URI is stored in</param>
-        /// <returns>A configured URI object</returns>
-        protected Uri GetUri(string key)
-        {
-            var uri = GetValue<string>(key);
-            return new Uri(uri);
-        }
-
-        /// <summary>
-        /// Gets an email address from the configuration file
-        /// </summary>
-        /// <param name="key">The name of the key the address is stored in</param>
-        /// <returns>A configured EmailAddress object</returns>
-        protected MailAddress GetEmailAddress(string key)
-        {
-            var address = GetValue<string>(key);
-            return new MailAddress(address);
+            var text = GetString(key);
+            return int.Parse(text);
         }
 
         #endregion

@@ -4,6 +4,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
+using System;
 using BookDatabase.Api.BusinessObjects.Users;
 
 namespace BookDatabase.Api.Tests.BusinessObjects.Users
@@ -18,18 +19,20 @@ namespace BookDatabase.Api.Tests.BusinessObjects.Users
         /// <summary>
         /// Gets a valid user
         /// </summary>
-        public static User ValidUser1
+        /// <param name="userName">The user name to use, or null to assign a random Guid</param>
+        /// <returns>A new user item</returns>
+        public static User GetNewValidUser(string userName = null)
         {
-            get
+            // Convert null user names to random Guids:
+            userName = string.IsNullOrEmpty(userName) ? Guid.NewGuid().ToString() : userName;
+
+            return new User
             {
-                return new User
-                {
-                    UserName = "UserName1",
-                    Password = "Password",
-                    FirstName = "FirstName",
-                    LastName = "LastName",
-                };
-            }
+                UserName = userName,
+                Password = "Password",
+                FirstName = "FirstName",
+                LastName = "LastName",
+            };
         }
 
         #endregion

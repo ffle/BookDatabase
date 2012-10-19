@@ -22,7 +22,7 @@ namespace BookDatabase.Api.Tests.Configuration
         {
             get
             {
-                return this.GetValue<string>(Environment.MachineName + ":MasterConnectionString");
+                return GetString(Environment.MachineName + ":MasterConnectionString");
             }
         }
 
@@ -33,7 +33,7 @@ namespace BookDatabase.Api.Tests.Configuration
         {
             get
             {
-                return this.GetValue<string>(Environment.MachineName + ":BookDatabaseConnectionString");
+                return this.GetString(Environment.MachineName + ":BookDatabaseConnectionString");
             }
         }
 

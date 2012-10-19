@@ -4,17 +4,13 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using System;
-using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BookDatabase.Api.Data.Repositories.Users;
+using BookDatabase.Api.BusinessObjects;
 using BookDatabase.Api.Data.Repositories;
-using BookDatabase.Api.Tests.BusinessObjects;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using NHibernate;
-using BookDatabase.Api.BusinessObjects;
 
 namespace BookDatabase.Api.Tests.Data.Repositories
 {

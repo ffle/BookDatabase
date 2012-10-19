@@ -7,8 +7,8 @@
 using System;
 using BookDatabase.Api.Configuration;
 using BookDatabase.Api.Nhibernate.Sessions;
-using NHibernate;
 using Castle.Core.Logging;
+using NHibernate;
 
 namespace BookDatabase.Api.Data
 {
