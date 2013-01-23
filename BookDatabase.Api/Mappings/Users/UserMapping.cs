@@ -13,8 +13,6 @@ namespace BookDatabase.Api.Mappings.Users
     /// </summary>
     public class UserMapping : BusinessObjectClassMap<User>
     {
-        #region Public Constructors
-
         /// <summary>
         /// Initializes a new instance of the UserMapping class
         /// </summary>
@@ -25,7 +23,5 @@ namespace BookDatabase.Api.Mappings.Users
             Map(x => x.FirstName).Length(100).Not.Nullable();
             Map(x => x.LastName).Length(100).Not.Nullable();
         }
-
-        #endregion
     }
 }

@@ -70,3 +70,7 @@ C:\Personal\BookDatabase\BookDatabase.Web\bin\FluentNHibernate.xml
 C:\Personal\BookDatabase\BookDatabase.Web\bin\NHibernate.xml
 C:\Personal\BookDatabase\BookDatabase.Web\bin\Castle.Core.xml
 C:\Personal\BookDatabase\BookDatabase.Web\bin\Iesi.Collections.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Castle.Windsor.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\log4net.dll
+C:\Personal\BookDatabase\BookDatabase.Web\bin\Castle.Windsor.xml
+C:\Personal\BookDatabase\BookDatabase.Web\bin\log4net.xml

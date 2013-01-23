@@ -4,18 +4,15 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using System.Web;
 using System.Web.Mvc;
 
-namespace BookDatabase.Web
+namespace BookDatabase.Web.App_Start
 {
     /// <summary>
     /// The FilterConfig class
     /// </summary>
     public class FilterConfig
     {
-        #region Public Static Methods
-
         /// <summary>
         /// Registers global filters
         /// </summary>
@@ -24,7 +21,5 @@ namespace BookDatabase.Web
         {
             filters.Add(new HandleErrorAttribute());
         }
-
-        #endregion
     }
 }

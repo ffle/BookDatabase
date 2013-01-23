@@ -14,16 +14,10 @@ namespace BookDatabase.Api.Tests.DataHelpers
     /// </summary>
     public abstract class SqlExecutor
     {
-        #region Private Readonly Fields
-
         /// <summary>
         /// Stores the connection string
         /// </summary>
         private readonly string connectionString;
-
-        #endregion
-
-        #region Protected Constructors
 
         /// <summary>
         /// Initializes a new instance of the SqlExecutor class
@@ -33,10 +27,6 @@ namespace BookDatabase.Api.Tests.DataHelpers
         {
             this.connectionString = connectionString;
         }
-
-        #endregion
-
-        #region Protected Methods
 
         /// <summary>
         /// Executes a non-query
@@ -104,7 +94,5 @@ namespace BookDatabase.Api.Tests.DataHelpers
 
             return parameter;
         }
-
-        #endregion
     }
 }

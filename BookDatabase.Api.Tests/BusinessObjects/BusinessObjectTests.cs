@@ -15,8 +15,6 @@ namespace BookDatabase.Api.Tests.BusinessObjects
     [TestClass]
     public class BusinessObjectTests
     {
-        #region Public Methods - Tests
-
         /// <summary>
         /// Tests IsNew
         /// </summary>
@@ -101,10 +99,6 @@ namespace BookDatabase.Api.Tests.BusinessObjects
             Assert.AreEqual(savedItem.Id.GetHashCode(), savedItem.GetHashCode());
         }
 
-        #endregion
-
-        #region Private Static Methods
-
         /// <summary>
         /// Helper to test the equality operators
         /// </summary>
@@ -135,25 +129,15 @@ namespace BookDatabase.Api.Tests.BusinessObjects
             Assert.AreEqual(expectEqual, equalsMethod2);
         }
 
-        #endregion
-
-        #region Public Classes
-
         /// <summary>
         /// Test business object
         /// </summary>
         private class TestBusinessObject : BusinessObject
         {
-            #region Public Properties
-
             /// <summary>
             /// Gets or sets the name
             /// </summary>
             public string Name { get; set; }
-
-            #endregion
         }
-
-        #endregion
     }
 }

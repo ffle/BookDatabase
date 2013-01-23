@@ -1,6 +1,6 @@
 <Modules>
   <Module PersistentId="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7" ModuleId="BookDatabase.Api.Tests" />
   <Module PersistentId="6346FDA2-B622-47C1-B073-B0544EEF4CDC" ModuleId="BookDatabase.Api" />
-  <Module PersistentId="A39517D4-00B4-4CE3-B578-EEF0A85B51A0" ModuleId="Delete" />
   <Module PersistentId="D5CE6748-635C-4B93-8967-BB199C6A3AE5" ModuleId="BookDatabase.Web" />
+  <Module PersistentId="6ECBCE12-C59D-42A4-AB26-55E5B4F1B103" ModuleId="BookDatabase.Web.Tests" />
 </Modules>

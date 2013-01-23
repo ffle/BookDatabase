@@ -14,8 +14,6 @@ namespace BookDatabase.Api.Tests.DataHelpers
     /// </summary>
     public class MasterSqlExecutor : SqlExecutor
     {
-        #region Public Constructors
-
         /// <summary>
         /// Initializes a new instance of the MasterSqlExecutor class
         /// </summary>
@@ -24,10 +22,6 @@ namespace BookDatabase.Api.Tests.DataHelpers
         {
             // No implementation
         }
-
-        #endregion
-
-        #region Public Properties
 
         /// <summary>
         /// Gets a value indicating whether the database exists
@@ -41,10 +35,6 @@ namespace BookDatabase.Api.Tests.DataHelpers
             }
         }
 
-        #endregion
-
-        #region Private Static Properties
-
         /// <summary>
         /// Gets the connection string
         /// </summary>
@@ -56,10 +46,6 @@ namespace BookDatabase.Api.Tests.DataHelpers
                 return configurationFile.MasterConnectionString;
             }
         }
-
-        #endregion
-
-        #region Public Methods
 
         /// <summary>
         /// Creates the BookDatabase database
@@ -76,7 +62,5 @@ namespace BookDatabase.Api.Tests.DataHelpers
         {
             this.ExecuteNonQuery("DELETE DATABASE BookDatabase", CommandType.Text);
         }
-
-        #endregion
     }
 }

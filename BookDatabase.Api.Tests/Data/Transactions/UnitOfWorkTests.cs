@@ -18,8 +18,6 @@ namespace BookDatabase.Api.Tests.Data.Transactions
     [TestClass]
     public class UnitOfWorkTests
     {
-        #region Public Methods - Tests
-
         /// <summary>
         /// Tests calling commit without adding any operations
         /// </summary>
@@ -220,7 +218,5 @@ namespace BookDatabase.Api.Tests.Data.Transactions
             sessionMock.Verify(x => x.Delete(user2), Times.Once());
             transactionMock.Verify(x => x.Commit(), Times.Exactly(2));
         }
-
-        #endregion
     }
 }

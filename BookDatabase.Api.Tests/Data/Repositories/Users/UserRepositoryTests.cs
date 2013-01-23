@@ -4,12 +4,13 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BookDatabase.Api.Data.Repositories.Users;
+using System.Collections.Generic;
 using BookDatabase.Api.BusinessObjects.Users;
+using BookDatabase.Api.Data.Repositories.Users;
+using BookDatabase.Api.Tests.BusinessObjects.Users;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using NHibernate;
-using BookDatabase.Api.Tests.BusinessObjects.Users;
 
 namespace BookDatabase.Api.Tests.Data.Repositories.Users
 {
@@ -19,17 +20,20 @@ namespace BookDatabase.Api.Tests.Data.Repositories.Users
     [TestClass]
     public class UserRepositoryTests
     {
-        #region Public Methods - Tests
-        
+        /// <summary>
+        /// Tests the Get method
+        /// </summary>
         [TestMethod]
-        public void TestMethod1()
+        public void TestGet()
         {
             // Arrange:
             var user = UserHelper.GetNewValidUser();
 
-            var IQueryOVer
+            var queryOverMock = new QueryOverMock<User>(new List<User> { user });
+
             var sessionMock = new Mock<ISession>();
-            // sessionMock.
+            sessionMock.Setup(x => x.QueryOver<User>()).Returns(queryOverMock);
+            
             var target = RepositoryHelper.Get<UserRepository, User>(sessionMock);
 
             // Act:
@@ -38,7 +42,5 @@ namespace BookDatabase.Api.Tests.Data.Repositories.Users
             // Assert:
             Assert.AreEqual(user, actualUser);
         }
-
-        #endregion
     }
 }

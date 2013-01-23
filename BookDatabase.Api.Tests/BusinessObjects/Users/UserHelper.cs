@@ -14,8 +14,6 @@ namespace BookDatabase.Api.Tests.BusinessObjects.Users
     /// </summary>
     public static class UserHelper
     {
-        #region Public Static Properties
-
         /// <summary>
         /// Gets a valid user
         /// </summary>
@@ -34,7 +32,5 @@ namespace BookDatabase.Api.Tests.BusinessObjects.Users
                 LastName = "LastName",
             };
         }
-
-        #endregion
     }
 }

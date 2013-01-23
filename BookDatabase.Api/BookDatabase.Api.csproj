@@ -33,10 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>..\packages\Castle.Core.3.1.0\lib\net40-client\Castle.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Windsor">
-      <HintPath>..\packages\Castle.Windsor.3.1.0\lib\net40\Castle.Windsor.dll</HintPath>
+      <HintPath>..\..\..\Users\Steve\Pearson-ExchangeMigration\Solution Items\References\Castle\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="FluentNHibernate">
       <HintPath>..\packages\FluentNHibernate.1.3.0.733\lib\FluentNHibernate.dll</HintPath>
@@ -65,15 +62,26 @@
       <Link>Properties\SolutionInfo.cs</Link>
     </Compile>
     <Compile Include="BusinessObjects\BusinessObject.cs" />
+    <Compile Include="BusinessObjects\Users\Administrator.cs" />
     <Compile Include="BusinessObjects\Users\User.cs" />
+    <Compile Include="BusinessObjects\Users\UserBase.cs" />
     <Compile Include="Configuration\ConfigurationFile.cs" />
     <Compile Include="Configuration\IApiConfigurationFile.cs" />
     <Compile Include="Data\Repositories\Repository.cs" />
+    <Compile Include="Data\Repositories\Users\AdministratorRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Repositories\Users\IAdministratorRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Repositories\Users\IUserBaseRepository.cs" />
+    <Compile Include="Data\Repositories\Users\UserBaseRepository.cs" />
     <Compile Include="Data\Repositories\Users\UserRepository.cs" />
     <Compile Include="Data\SessionContainer.cs" />
     <Compile Include="Data\Transactions\IUnitOfWork.cs" />
     <Compile Include="Data\Transactions\UnitOfWork.cs" />
     <Compile Include="Mappings\BusinessObjectClassMap.cs" />
+    <Compile Include="Mappings\Users\AdministratorMapping.cs" />
     <Compile Include="Mappings\Users\UserMapping.cs" />
     <Compile Include="Nhibernate\Conventions\CustomForeignKeyConvention.cs" />
     <Compile Include="Nhibernate\Sessions\ISessionFactoryFactory.cs" />
@@ -81,6 +89,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data\Repositories\IRepository.cs" />
     <Compile Include="Data\Repositories\Users\IUserRepository.cs" />
+    <Compile Include="Services\IService.cs" />
+    <Compile Include="Services\Users\IUserService.cs" />
+    <Compile Include="Services\Users\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

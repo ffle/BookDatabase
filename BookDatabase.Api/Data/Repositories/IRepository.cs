@@ -14,11 +14,9 @@ namespace BookDatabase.Api.Data.Repositories
     /// Interface which all repositories must implement
     /// </summary>
     /// <typeparam name="T">The type of business object the repository is associated with</typeparam>
-    public interface IRepository<out T> : IDisposable
+    public interface IRepository<out T> : IDisposable, IRepository
         where T : BusinessObject
     {
-        #region Methods
-
         /// <summary>
         /// Gets an object by Id
         /// </summary>
@@ -31,7 +29,13 @@ namespace BookDatabase.Api.Data.Repositories
         /// </summary>
         /// <returns>All items in the repository</returns>
         IEnumerable<T> GetAll();
+    }
 
-        #endregion
+    /// <summary>
+    /// Interface which identifies all repositories as such
+    /// </summary>
+    public interface IRepository
+    {
+        // No implementation
     }
 }

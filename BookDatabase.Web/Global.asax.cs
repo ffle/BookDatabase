@@ -4,13 +4,12 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
+using BookDatabase.Web.App_Start;
+using BookDatabase.Web.DependencyInjection;
+using log4net;
 
 namespace BookDatabase.Web
 {
@@ -19,8 +18,6 @@ namespace BookDatabase.Web
     /// </summary>
     public class MvcApplication : System.Web.HttpApplication
     {
-        #region Protected Methods
-
         /// <summary>
         /// Fires when the application starts
         /// </summary>
@@ -31,8 +28,17 @@ namespace BookDatabase.Web
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            var log = Injector.Instance.Resolve<ILog>();
+            log.Info("Application Started");
         }
 
-        #endregion
+        /// <summary>
+        /// Fires when the application ends
+        /// </summary>
+        protected void Application_End()
+        {
+            Injector.Instance.Dispose();
+        }
     }
 }

@@ -14,8 +14,6 @@ namespace BookDatabase.Api.BusinessObjects
     [Serializable]
     public abstract class BusinessObject
     {
-        #region Public Properties
-
         /// <summary>
         /// Gets the Id of the object
         /// </summary>
@@ -31,10 +29,6 @@ namespace BookDatabase.Api.BusinessObjects
                 return Id == null;
             }
         }
-
-        #endregion
-
-        #region Public Static Operator Methods
 
         /// <summary>
         /// Compares two business objects for equality
@@ -68,10 +62,6 @@ namespace BookDatabase.Api.BusinessObjects
             return !(item1 == item2);
         }
 
-        #endregion
-
-        #region Public Methods
-
         /// <summary>
         /// Checks to see if an other instance is equal to this one
         /// </summary>
@@ -94,10 +84,6 @@ namespace BookDatabase.Api.BusinessObjects
             // Otherwise the two are equal if their Ids are equal:
             return Equals(other.Id, Id);
         }
-
-        #endregion
-
-        #region Public Override Methods
 
         /// <summary>
         /// Gets the hash code of the object
@@ -126,7 +112,5 @@ namespace BookDatabase.Api.BusinessObjects
             var other = obj as BusinessObject;
             return Equals(other);
         }
-
-        #endregion
     }
 }

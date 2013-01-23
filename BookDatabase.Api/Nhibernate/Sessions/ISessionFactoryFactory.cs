@@ -13,14 +13,10 @@ namespace BookDatabase.Api.Nhibernate.Sessions
     /// </summary>
     public interface ISessionFactoryFactory
     {
-        #region Methods
-
         /// <summary>
         /// Gets a SessionFactory
         /// </summary>
         /// <returns>A configured SessionFactory</returns>
         ISessionFactory GetInstance();
-
-        #endregion
     }
 }

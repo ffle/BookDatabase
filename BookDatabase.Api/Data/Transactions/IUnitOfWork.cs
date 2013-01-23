@@ -14,8 +14,6 @@ namespace BookDatabase.Api.Data.Transactions
     /// </summary>
     public interface IUnitOfWork : IDisposable
     {
-        #region Methods
-
         /// <summary>
         /// Saves an item
         /// </summary>
@@ -37,7 +35,5 @@ namespace BookDatabase.Api.Data.Transactions
         /// Commits the current transaction
         /// </summary>
         void Commit();
-
-        #endregion
     }
 }

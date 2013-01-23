@@ -20,8 +20,6 @@ namespace BookDatabase.Api.Tests.Data.Repositories
     [TestClass]
     public class RepositoryTests
     {
-        #region Public Methods - Tests
-
         /// <summary>
         /// Tests the GetAll methods
         /// </summary>
@@ -69,10 +67,6 @@ namespace BookDatabase.Api.Tests.Data.Repositories
             Assert.AreEqual(expectedItem, result);
         }
 
-        #endregion 
-
-        #region Private Static Methods
-
         /// <summary>
         /// Gets test data
         /// </summary>
@@ -85,10 +79,6 @@ namespace BookDatabase.Api.Tests.Data.Repositories
                 new TestBusinessObject { Id = 2, Name = "Item2" },
             };
         }
-
-        #endregion
-
-        #region Private Classes
 
         /// <summary>
         /// Test repository
@@ -103,16 +93,10 @@ namespace BookDatabase.Api.Tests.Data.Repositories
         /// </summary>
         private class TestBusinessObject : BusinessObject
         {
-            #region Public Properties
-
             /// <summary>
             /// Gets or sets the name
             /// </summary>
             public string Name { get; set; }
-
-            #endregion
         }
-        
-        #endregion
     }
 }

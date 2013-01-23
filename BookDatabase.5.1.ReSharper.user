@@ -8,9 +8,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Sessions/f:ISessionFactoryFactory.cs" caret="292" fromTop="7" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Conventions/f:CustomForeignKeyConvention.cs" caret="0" fromTop="0" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:BusinessObjects/d:Users/f:User.cs" caret="255" fromTop="4" />
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:DataHelpers/f:SqlExecutor.cs" caret="3081" fromTop="13" />
       <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:IApiConfigurationFile.cs" caret="766" fromTop="23" />
       <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:IUserRepository.cs" caret="471" fromTop="13" />
@@ -21,12 +18,9 @@
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:DataHelpers/f:MasterSqlExecutor.cs" caret="2160" fromTop="43" />
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/f:BusinessObjectTests.cs" caret="5852" fromTop="26" />
       <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Sessions/f:SessionFactoryFactory.cs" caret="1607" fromTop="15" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:UserRepository.cs" caret="910" fromTop="9" />
       <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/f:Repository.cs" caret="977" fromTop="23" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="749" fromTop="24" />
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="2077" fromTop="18" />
       <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:IUnitOfWork.cs" caret="690" fromTop="12" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:UnitOfWork.cs" caret="1859" fromTop="18" />
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/f:IntegrationTest.cs" caret="2959" fromTop="17" />
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Mappings/d:Users/f:UserMappingTests.cs" caret="1561" fromTop="20" />
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/d:Users/f:UserHelper.cs" caret="0" fromTop="0" />
@@ -34,37 +28,48 @@
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkHelper.cs" caret="73" fromTop="0" />
       <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/f:SessionContainer.cs" caret="411" fromTop="10" />
       <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="487" fromTop="12" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1663" fromTop="24" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="656" fromTop="17" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="494" fromTop="13" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="521" fromTop="11" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Configuration/f:ConfigurationFile.cs" caret="1092" fromTop="21" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Conventions/f:CustomForeignKeyConvention.cs" caret="0" fromTop="0" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="708" fromTop="21" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:UserRepository.cs" caret="863" fromTop="24" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:UnitOfWork.cs" caret="3482" fromTop="39" />
     </RecentFiles>
     <RecentEdits>
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/d:Users/f:UserHelper.cs" caret="1033" fromTop="29" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="2149" fromTop="16" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="3026" fromTop="34" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="5743" fromTop="15" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="6831" fromTop="36" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="2910" fromTop="22" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="3790" fromTop="29" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="4659" fromTop="22" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="5571" fromTop="26" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="7542" fromTop="25" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="6659" fromTop="38" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkHelper.cs" caret="1193" fromTop="10" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Mappings/d:Users/f:UserMappingTests.cs" caret="1561" fromTop="20" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkHelper.cs" caret="267" fromTop="6" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="7564" fromTop="27" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="304" fromTop="7" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="110" fromTop="1" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="522" fromTop="15" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="729" fromTop="21" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="1191" fromTop="20" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="1686" fromTop="16" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="2564" fromTop="24" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="3430" fromTop="19" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="4311" fromTop="24" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="5216" fromTop="15" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="6281" fromTop="19" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkHelper.cs" caret="111" fromTop="1" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/f:SessionContainer.cs" caret="411" fromTop="10" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="487" fromTop="12" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:UnitOfWork.cs" caret="3518" fromTop="13" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="115" fromTop="1" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="1110" fromTop="24" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="628" fromTop="15" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="890" fromTop="23" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1095" fromTop="8" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1235" fromTop="7" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1258" fromTop="20" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1258" fromTop="22" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1575" fromTop="17" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1618" fromTop="21" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="760" fromTop="14" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="1059" fromTop="20" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="665" fromTop="17" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="309" fromTop="4" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="116" fromTop="1" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="272" fromTop="6" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="266" fromTop="5" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="555" fromTop="15" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="521" fromTop="11" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Configuration/f:ConfigurationFile.cs" caret="749" fromTop="10" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Configuration/f:ConfigurationFile.cs" caret="1092" fromTop="21" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="616" fromTop="9" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="1292" fromTop="20" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="114" fromTop="1" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="503" fromTop="7" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="1211" fromTop="21" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="1259" fromTop="22" />
+      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="925" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -85,8 +90,8 @@
       <Item value="ctor" priority="1" />
       <Item value="BookDatabase.Api" priority="1" />
       <Item value="static" priority="4" />
-      <Item value="return" priority="5" />
-      <Item value="new" priority="23" />
+      <Item value="return" priority="7" />
+      <Item value="new" priority="24" />
       <Item value="User" priority="0" />
       <Item value="UserName" priority="2" />
       <Item value="FirstName" priority="1" />
@@ -94,7 +99,7 @@
       <Item value="Nhibernate" priority="0" />
       <Item value="IRepository" priority="0" />
       <Item value="User`0" priority="3" />
-      <Item value="int" priority="0" />
+      <Item value="int" priority="1" />
       <Item value="DisposeSession`0" priority="1" />
       <Item value="session" priority="0" />
       <Item value="null" priority="4" />
@@ -107,11 +112,11 @@
       <Item value="Map`0" priority="0" />
       <Item value="password" priority="0" />
       <Item value="users" priority="1" />
-      <Item value="using" priority="0" />
-      <Item value="System" priority="2" />
+      <Item value="using" priority="1" />
+      <Item value="System" priority="3" />
       <Item value="Linq" priority="0" />
       <Item value="Password" priority="1" />
-      <Item value="var" priority="18" />
+      <Item value="var" priority="22" />
       <Item value="userRepository" priority="1" />
       <Item value="ConfigurationFile" priority="5" />
       <Item value="Mock`0" priority="4" />
@@ -124,7 +129,7 @@
       <Item value="foreach" priority="0" />
       <Item value="in" priority="0" />
       <Item value="cw" priority="1" />
-      <Item value="user" priority="3" />
+      <Item value="user" priority="6" />
       <Item value="IUnitOfWork`0" priority="1" />
       <Item value="entity" priority="0" />
       <Item value="private" priority="9" />
@@ -153,31 +158,31 @@
       <Item value="sqlExecutor" priority="0" />
       <Item value="Repositories" priority="1" />
       <Item value="RepositoryTestHelper`0" priority="0" />
-      <Item value="Tests" priority="0" />
+      <Item value="Tests" priority="1" />
       <Item value="where" priority="1" />
       <Item value="Repository" priority="1" />
       <Item value="TBusinessObject`0" priority="1" />
       <Item value="BusinessObject`0" priority="1" />
       <Item value="TRepository`0" priority="0" />
-      <Item value="BookDatabase" priority="0" />
-      <Item value="Api" priority="0" />
-      <Item value="Configuration" priority="0" />
-      <Item value="IApiConfigurationFile`0" priority="0" />
+      <Item value="BookDatabase" priority="2" />
+      <Item value="Api" priority="3" />
+      <Item value="Configuration" priority="3" />
+      <Item value="IApiConfigurationFile`0" priority="2" />
       <Item value="configurationFileMock" priority="1" />
       <Item value="class" priority="0" />
       <Item value="TestRepository`0" priority="0" />
-      <Item value="target" priority="4" />
+      <Item value="target" priority="5" />
       <Item value="sessionFactoryFactoryMock" priority="0" />
       <Item value="ISessionFactory`0" priority="0" />
       <Item value="sessionFactoryMock" priority="1" />
-      <Item value="sessionMock" priority="7" />
+      <Item value="sessionMock" priority="9" />
       <Item value="AssemblyCleanupAttribute`0" priority="0" />
-      <Item value="Assert`0" priority="0" />
+      <Item value="Assert`0" priority="1" />
       <Item value="result" priority="1" />
       <Item value="T`0" priority="2" />
       <Item value="BusinessObjects" priority="0" />
       <Item value="IList" priority="2" />
-      <Item value="this" priority="0" />
+      <Item value="this" priority="1" />
       <Item value="items" priority="6" />
       <Item value="TestBusinessObject`0" priority="5" />
       <Item value="T" priority="0" />
@@ -208,12 +213,22 @@
       <Item value="ITransaction`0" priority="0" />
       <Item value="transactionMock" priority="1" />
       <Item value="Guid`0" priority="0" />
+      <Item value="Web" priority="0" />
+      <Item value="ConfigurationFile`0" priority="0" />
+      <Item value="GetValue`1" priority="0" />
+      <Item value="text" priority="0" />
+      <Item value="GetInt`0" priority="0" />
+      <Item value="interface" priority="0" />
+      <Item value="GetString`0" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="RepositoryHelper`0" priority="0" />
+      <Item value="actualUser" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:BookDatabase.Api.BusinessObjects.Users.User">
       <Item value="FirstName" priority="1" />
       <Item value="LastName" priority="1" />
-      <Item value="UserName" priority="1" />
-      <Item value="Password" priority="2" />
+      <Item value="UserName" priority="2" />
+      <Item value="Password" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Testing.PersistenceSpecification`1">
       <Item value="CheckProperty`2" priority="2" />
@@ -242,9 +257,10 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:BookDatabase.Api.Data.Repositories.Users.UserRepository">
       <Item value="Logger" priority="0" />
+      <Item value="Get`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Moq.Mock`1">
-      <Item value="Object" priority="9" />
+      <Item value="Object" priority="10" />
       <Item value="Setup`1" priority="7" />
       <Item value="Verify`1" priority="3" />
     </ItemStatistics>
@@ -281,7 +297,7 @@
       <Item value="DeleteDatabase`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@BookDatabase.Api.Tests.Data.Repositories.RepositoryHelper">
-      <Item value="Get`2" priority="0" />
+      <Item value="Get`2" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:BookDatabase.Api.Nhibernate.Sessions.SessionFactoryFactory">
       <Item value="GetInstance`0" priority="1" />
@@ -294,7 +310,7 @@
       <Item value="GetById`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
-      <Item value="AreEqual`0" priority="0" />
+      <Item value="AreEqual`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="Count`1" priority="0" />
@@ -322,7 +338,7 @@
     <ItemStatistics item="Qualified:@BookDatabase.Api.Tests.BusinessObjects.Users.UserHelper">
       <Item value="ValidUser1" priority="0" />
       <Item value="NewValidUser" priority="1" />
-      <Item value="GetNewValidUser`0" priority="2" />
+      <Item value="GetNewValidUser`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Moq.Times">
       <Item value="Once`0" priority="2" />
@@ -337,6 +353,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

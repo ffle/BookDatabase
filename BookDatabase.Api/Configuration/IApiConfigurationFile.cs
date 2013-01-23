@@ -11,8 +11,6 @@ namespace BookDatabase.Api.Configuration
     /// </summary>
     public interface IApiConfigurationFile
     {
-        #region Properties
-
         /// <summary>
         /// Gets the connection string
         /// </summary>
@@ -22,7 +20,5 @@ namespace BookDatabase.Api.Configuration
         /// Gets the number of database retries
         /// </summary>
         int DatabaseOperationRetries { get; }
-
-        #endregion
     }
 }

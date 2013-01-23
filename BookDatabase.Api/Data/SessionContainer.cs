@@ -17,25 +17,28 @@ namespace BookDatabase.Api.Data
     /// </summary>
     public abstract class SessionContainer : IDisposable
     {
-        #region Private Readonly Fields
-
         /// <summary>
         /// Lock to ensure thread-safe access to the session
         /// </summary>
         private readonly object sessionLock = new object();
-
-        #endregion
-
-        #region Private Fields
 
         /// <summary>
         /// Stores the active session
         /// </summary>
         private ISession session;
 
-        #endregion
+        /// <summary>
+        /// Stores a valud indicating whether the class has been disposed
+        /// </summary>
+        private bool disposed;
 
-        #region Public Properties
+        /// <summary>
+        /// Finalizes an instance of the SessionContainer class
+        /// </summary>
+        ~SessionContainer()
+        {
+            Dispose(false);
+        }
 
         /// <summary>
         /// Gets or sets the SessionFactoryFactory
@@ -52,10 +55,6 @@ namespace BookDatabase.Api.Data
         /// </summary>
         public IApiConfigurationFile ConfigurationFile { get; set; }
 
-        #endregion
-
-        #region Protected Virtual Properties
-
         /// <summary>
         /// Gets the session in use by the instance
         /// </summary>
@@ -70,22 +69,14 @@ namespace BookDatabase.Api.Data
             }
         }
 
-        #endregion
-
-        #region Public Methods
-
         /// <summary>
         /// Disposes of the repository
         /// </summary>
         public void Dispose()
         {
-#warning Implement this using MS guidelines
-            DisposeSession();
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
-
-        #endregion
-
-        #region Protected Methods
 
         /// <summary>
         /// Executes an operation, retrying if an exception is encountered
@@ -139,9 +130,26 @@ namespace BookDatabase.Api.Data
             ExecuteOperationWithRetry(newOperation);
         }
 
-        #endregion
+        /// <summary>
+        /// Logic to dispose the object
+        /// </summary>
+        /// <param name="disposing">True if the Dispose has been called, false otherwise</param>
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!this.disposed)
+            {
+                if (disposing)
+                {
+                    // Dispose managed resources:
+                }
 
-        #region Private Methods
+                // Dispose unmanaged resources:
+                session.Dispose();
+
+                // Note disposing has been done.
+                disposed = true;
+            }
+        }
 
         /// <summary>
         /// Safely disposes the session and sets it to null
@@ -162,7 +170,5 @@ namespace BookDatabase.Api.Data
             // needed again:
             session = null;
         }
-
-        #endregion
     }
 }

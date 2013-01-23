@@ -20,13 +20,11 @@ C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\CustomDictionary.xml
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\BookDatabase.Api.dll
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\BookDatabase.Api.pdb
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\Castle.Core.dll
-C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\Castle.Windsor.dll
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\FluentNHibernate.dll
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\Iesi.Collections.dll
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\log4net.dll
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\NHibernate.dll
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\Castle.Core.xml
-C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\Castle.Windsor.xml
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\FluentNHibernate.xml
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\Iesi.Collections.xml
 C:\Personal\BookDatabase\BookDatabase.Api\bin\Debug\log4net.xml

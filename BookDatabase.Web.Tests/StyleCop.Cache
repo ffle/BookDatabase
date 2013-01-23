@@ -8,8 +8,8 @@
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
-    <timestamp>10/08/2012 09:37:39</timestamp>
-    <milliseconds>874</milliseconds>
+    <timestamp>01/23/2013 14:22:09</timestamp>
+    <milliseconds>345</milliseconds>
     <violations />
   </sourcecode>
   <sourcecode name="SolutionInfo.cs" parser="StyleCop.CSharp.CsParser">

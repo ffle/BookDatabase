@@ -4,20 +4,15 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web.Http;
 
-namespace BookDatabase.Web
+namespace BookDatabase.Web.App_Start
 {
     /// <summary>
     /// The WebApiConfig class
     /// </summary>
     public static class WebApiConfig
     {
-        #region Public Static Methods
-        
         /// <summary>
         /// Registers configuration
         /// </summary>
@@ -25,11 +20,9 @@ namespace BookDatabase.Web
         public static void Register(HttpConfiguration config)
         {
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional });
+                "DefaultApi",
+                "api/{controller}/{id}",
+                new { id = RouteParameter.Optional });
         }
-
-        #endregion
     }
 }

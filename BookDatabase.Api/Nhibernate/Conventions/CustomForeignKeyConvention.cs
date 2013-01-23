@@ -15,8 +15,6 @@ namespace BookDatabase.Api.Nhibernate.Conventions
     /// </summary>
     public class CustomForeignKeyConvention : ForeignKeyConvention
     {
-        #region Protected Override Methods
-
         /// <summary>
         /// Gets the name of the key
         /// </summary>
@@ -38,7 +36,5 @@ namespace BookDatabase.Api.Nhibernate.Conventions
             // If both are null, we throw an exception:
             throw new ArgumentNullException("property", "The property and type parameters cannot both be null");
         }
-
-        #endregion
     }
 }

@@ -11,8 +11,6 @@ namespace BookDatabase.Web.Configuration
     /// </summary>
     public class ConfigurationFile : Api.Configuration.ConfigurationFile, IWebConfigurationFile
     {
-        #region Public Properties
-
         /// <summary>
         /// Gets the connection string
         /// </summary>
@@ -34,7 +32,5 @@ namespace BookDatabase.Web.Configuration
                 return GetInt("DatabaseOperationRetries");
             }
         }
-
-        #endregion
     }
 }

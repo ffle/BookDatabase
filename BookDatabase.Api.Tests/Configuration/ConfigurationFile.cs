@@ -13,8 +13,6 @@ namespace BookDatabase.Api.Tests.Configuration
     /// </summary>
     public class ConfigurationFile : Api.Configuration.ConfigurationFile
     {
-        #region Public Properties
-
         /// <summary>
         /// Gets the connection string for the master database
         /// </summary>
@@ -36,7 +34,5 @@ namespace BookDatabase.Api.Tests.Configuration
                 return this.GetString(Environment.MachineName + ":BookDatabaseConnectionString");
             }
         }
-
-        #endregion
     }
 }

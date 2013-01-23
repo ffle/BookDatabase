@@ -17,34 +17,20 @@ namespace BookDatabase.Api.Nhibernate.Sessions
     /// </summary>
     public class SessionFactoryFactory : ISessionFactoryFactory
     {
-        #region Private Static Readonly Fields
-
         /// <summary>
         /// Stores a lock to allow thread-safe access to the sessionFactory
         /// </summary>
         private static readonly object SessionFactoryLock = new object();
-
-        #endregion
-
-        #region Private Static Fields
 
         /// <summary>
         /// Stores the sessionFactory instance to use
         /// </summary>
         private static ISessionFactory sessionFactory;
 
-        #endregion
-
-        #region Public Properties
-
         /// <summary>
         /// Gets or sets the configuration file
         /// </summary>
         public IApiConfigurationFile ConfigurationFile { get; set; }
-
-        #endregion
-
-        #region Public Methods
 
         /// <summary>
         /// Gets a SessionFactory
@@ -75,7 +61,5 @@ namespace BookDatabase.Api.Nhibernate.Sessions
                 return sessionFactory;
             }
         }
-
-        #endregion
     }
 }

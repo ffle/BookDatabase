@@ -18,8 +18,6 @@ namespace BookDatabase.Api.Tests.Data.Transactions
     /// </summary>
     public static class UnitOfWorkHelper
     {
-        #region Public Static Methods
-
         /// <summary>
         /// Gets a new unit of work configured testing
         /// </summary>
@@ -44,7 +42,5 @@ namespace BookDatabase.Api.Tests.Data.Transactions
                 SessionFactoryFactory = sessionFactoryFactoryMock.Object,
             };
         }
-
-        #endregion
     }
 }

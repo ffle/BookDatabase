@@ -16,25 +16,15 @@ namespace BookDatabase.Api.Data.Transactions
     /// </summary>
     public class UnitOfWork : SessionContainer, IUnitOfWork
     {
-        #region Private Readonly Fields
-
         /// <summary>
         /// Stores a lock to allow thread-safe access to the current transaction
         /// </summary>
         private readonly object currentTransactionLock = new object();
 
-        #endregion
-
-        #region Private Fields
-
         /// <summary>
         /// Stores the current transaction
         /// </summary>
         private ITransaction currentTransaction;
-        
-        #endregion
-
-        #region Public Methods
 
         /// <summary>
         /// Saves an item
@@ -96,10 +86,6 @@ namespace BookDatabase.Api.Data.Transactions
             }
         }
 
-        #endregion
-
-        #region Private Methods
-
         /// <summary>
         /// Ensures there is a transaction to use
         /// </summary>
@@ -118,21 +104,9 @@ namespace BookDatabase.Api.Data.Transactions
         {
             if (currentTransaction != null)
             {
-                try
-                {
-                    currentTransaction.Dispose();
-                }
-                catch
-                {
-                    // Ignore
-                }
-                finally
-                {
-                    currentTransaction = null;
-                }
+                currentTransaction.Dispose();
+                currentTransaction = null;
             }
         }
-
-        #endregion
     }
 }

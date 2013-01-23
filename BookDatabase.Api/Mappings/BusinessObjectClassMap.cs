@@ -15,8 +15,6 @@ namespace BookDatabase.Api.Mappings
     /// <typeparam name="T">The type of business object being mapped</typeparam>
     public abstract class BusinessObjectClassMap<T> : ClassMap<T> where T : BusinessObject
     {
-        #region Protected Constructors
-
         /// <summary>
         /// Initializes a new instance of the BusinessObjectClassMap class
         /// </summary>
@@ -25,7 +23,5 @@ namespace BookDatabase.Api.Mappings
             Not.LazyLoad();
             Id(x => x.Id).GeneratedBy.Identity();
         }
-
-        #endregion
     }
 }

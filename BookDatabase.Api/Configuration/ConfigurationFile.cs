@@ -4,11 +4,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using System;
 using System.Configuration;
-using System.Globalization;
-using System.IO;
-using System.Net.Mail;
 
 namespace BookDatabase.Api.Configuration
 {
@@ -17,16 +13,10 @@ namespace BookDatabase.Api.Configuration
     /// </summary>
     public abstract class ConfigurationFile
     {
-        #region Private Fields
-
         /// <summary>
         /// The reader used to interact with the configuration file
         /// </summary>
         private readonly AppSettingsReader reader = new AppSettingsReader();
-
-        #endregion
-
-        #region Protected Methods
 
         /// <summary>
         /// Gets a string value from the configuration file
@@ -48,7 +38,5 @@ namespace BookDatabase.Api.Configuration
             var text = GetString(key);
             return int.Parse(text);
         }
-
-        #endregion
     }
 }

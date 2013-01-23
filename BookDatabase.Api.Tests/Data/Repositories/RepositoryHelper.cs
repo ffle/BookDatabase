@@ -19,8 +19,6 @@ namespace BookDatabase.Api.Tests.Data.Repositories
     /// </summary>
     public static class RepositoryHelper
     {
-        #region Public Static Methods
-
         /// <summary>
         /// Gets a new reposiory configured for testing
         /// </summary>
@@ -48,7 +46,5 @@ namespace BookDatabase.Api.Tests.Data.Repositories
                 SessionFactoryFactory = sessionFactoryFactoryMock.Object,
             };
         }
-
-        #endregion
     }
 }

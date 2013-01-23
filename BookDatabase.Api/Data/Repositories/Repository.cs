@@ -15,8 +15,6 @@ namespace BookDatabase.Api.Data.Repositories
     /// <typeparam name="T">The type of item handled by the repository</typeparam>
     public abstract class Repository<T> : SessionContainer, IRepository<T> where T : BusinessObject
     {
-        #region Public Methods
-
         /// <summary>
         /// Gets a business object by Id
         /// </summary>
@@ -36,7 +34,5 @@ namespace BookDatabase.Api.Data.Repositories
             var criteria = Session.CreateCriteria<T>();
             return criteria.List<T>();
         }
-
-        #endregion
     }
 }

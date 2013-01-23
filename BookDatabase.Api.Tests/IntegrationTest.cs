@@ -24,8 +24,6 @@ namespace BookDatabase.Api.Tests
     [TestClass]
     public abstract class IntegrationTest
     {
-        #region Private Static Fields
-
         /// <summary>
         /// Stores a value indicating whether test initialization has been attempted
         /// </summary>
@@ -36,10 +34,6 @@ namespace BookDatabase.Api.Tests
         /// </summary>
         private static bool testInitializeComplete;
 
-        #endregion
-
-        #region Protected Static Properties
-
         /// <summary>
         /// Gets a session factory
         /// </summary>
@@ -49,10 +43,6 @@ namespace BookDatabase.Api.Tests
         /// Gets a session
         /// </summary>
         protected static ISession Session { get; private set; }
-
-        #endregion
-
-        #region Public Methods
 
         /// <summary>
         /// Fires before each integration test is executed
@@ -96,10 +86,6 @@ namespace BookDatabase.Api.Tests
             Session.Close();
         }
 
-        #endregion
-
-        #region Private Static Methods
-
         /// <summary>
         /// Builds the database 
         /// </summary>
@@ -108,10 +94,6 @@ namespace BookDatabase.Api.Tests
         {
             new SchemaExport(configuration).Create(false, true);
         }
-
-        #endregion
-
-        #region Private Methods
 
         /// <summary>
         /// Updates the 
@@ -138,7 +120,5 @@ namespace BookDatabase.Api.Tests
                 .Mappings(x => x.FluentMappings.Conventions.Add(new CustomForeignKeyConvention()))
                 .BuildSessionFactory();
         }
-
-        #endregion
     }
 }
