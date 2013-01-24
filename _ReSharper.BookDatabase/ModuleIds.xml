@@ -3,4 +3,5 @@
   <Module PersistentId="6346FDA2-B622-47C1-B073-B0544EEF4CDC" ModuleId="BookDatabase.Api" />
   <Module PersistentId="D5CE6748-635C-4B93-8967-BB199C6A3AE5" ModuleId="BookDatabase.Web" />
   <Module PersistentId="6ECBCE12-C59D-42A4-AB26-55E5B4F1B103" ModuleId="BookDatabase.Web.Tests" />
+  <Module PersistentId="56D88F1A-F2F2-4B1D-9036-589A1EC2CD5D" ModuleId="DELETE" />
 </Modules>

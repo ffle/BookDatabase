@@ -3,6 +3,15 @@
   <project key="-450208240">
     <configuration>DEBUG;TRACE</configuration>
   </project>
+  <sourcecode name="WebApiConfig.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>01/23/2013 14:22:09</timestamp>
+    <milliseconds>394</milliseconds>
+    <violations />
+  </sourcecode>
   <sourcecode name="RouteConfig.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
@@ -21,33 +30,6 @@
     <milliseconds>414</milliseconds>
     <violations />
   </sourcecode>
-  <sourcecode name="WebApiConfig.cs" parser="StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>10/08/2012 09:37:40</timestamp>
-      <milliseconds>707</milliseconds>
-    </settings>
-    <timestamp>01/23/2013 14:22:09</timestamp>
-    <milliseconds>394</milliseconds>
-    <violations />
-  </sourcecode>
-  <sourcecode name="ConfigurationFile.cs" parser="StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>10/08/2012 09:37:40</timestamp>
-      <milliseconds>707</milliseconds>
-    </settings>
-    <timestamp>01/23/2013 13:13:30</timestamp>
-    <milliseconds>130</milliseconds>
-    <violations />
-  </sourcecode>
-  <sourcecode name="UserController.cs" parser="StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>10/08/2012 09:37:40</timestamp>
-      <milliseconds>707</milliseconds>
-    </settings>
-    <timestamp>01/23/2013 15:18:58</timestamp>
-    <milliseconds>629</milliseconds>
-    <violations />
-  </sourcecode>
   <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
@@ -55,15 +37,6 @@
     </settings>
     <timestamp>10/08/2012 09:37:40</timestamp>
     <milliseconds>64</milliseconds>
-    <violations />
-  </sourcecode>
-  <sourcecode name="ControllerFactory.cs" parser="StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>10/08/2012 09:37:40</timestamp>
-      <milliseconds>707</milliseconds>
-    </settings>
-    <timestamp>01/23/2013 15:29:41</timestamp>
-    <milliseconds>980</milliseconds>
     <violations />
   </sourcecode>
   <sourcecode name="IWebConfigurationFile.cs" parser="StyleCop.CSharp.CsParser">
@@ -75,22 +48,22 @@
     <milliseconds>318</milliseconds>
     <violations />
   </sourcecode>
+  <sourcecode name="ConfigurationFile.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>01/23/2013 13:13:30</timestamp>
+    <milliseconds>130</milliseconds>
+    <violations />
+  </sourcecode>
   <sourcecode name="Global.asax.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
       <milliseconds>707</milliseconds>
     </settings>
-    <timestamp>01/23/2013 14:22:09</timestamp>
-    <milliseconds>384</milliseconds>
-    <violations />
-  </sourcecode>
-  <sourcecode name="Injector.cs" parser="StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>10/08/2012 09:37:40</timestamp>
-      <milliseconds>707</milliseconds>
-    </settings>
-    <timestamp>01/23/2013 15:28:57</timestamp>
-    <milliseconds>930</milliseconds>
+    <timestamp>01/24/2013 21:06:59</timestamp>
+    <milliseconds>906</milliseconds>
     <violations />
   </sourcecode>
   <sourcecode name="SolutionInfo.cs" parser="StyleCop.CSharp.CsParser">
@@ -100,6 +73,42 @@
     </settings>
     <timestamp>10/08/2012 09:37:40</timestamp>
     <milliseconds>709</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="UserController.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>01/24/2013 21:16:48</timestamp>
+    <milliseconds>605</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="ControllerFactory.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>01/24/2013 21:07:52</timestamp>
+    <milliseconds>769</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="Injector.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>01/24/2013 21:23:10</timestamp>
+    <milliseconds>515</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="RegisterViewModel.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>01/23/2013 15:44:48</timestamp>
+    <milliseconds>332</milliseconds>
     <violations />
   </sourcecode>
 </stylecopresultscache>

@@ -8,68 +8,50 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:DataHelpers/f:SqlExecutor.cs" caret="3081" fromTop="13" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:IApiConfigurationFile.cs" caret="766" fromTop="23" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:IUserRepository.cs" caret="471" fromTop="13" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/f:IRepository.cs" caret="351" fromTop="8" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/f:App.config" caret="359" fromTop="4" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Mappings/d:Users/f:UserMapping.cs" caret="949" fromTop="21" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Mappings/f:BusinessObjectClassMap.cs" caret="991" fromTop="18" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:DataHelpers/f:MasterSqlExecutor.cs" caret="2160" fromTop="43" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/f:BusinessObjectTests.cs" caret="5852" fromTop="26" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Sessions/f:SessionFactoryFactory.cs" caret="1607" fromTop="15" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/f:Repository.cs" caret="977" fromTop="23" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryHelper.cs" caret="2077" fromTop="18" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:IUnitOfWork.cs" caret="690" fromTop="12" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/f:IntegrationTest.cs" caret="2959" fromTop="17" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Mappings/d:Users/f:UserMappingTests.cs" caret="1561" fromTop="20" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:BusinessObjects/d:Users/f:UserHelper.cs" caret="0" fromTop="0" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkTests.cs" caret="7574" fromTop="27" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Transactions/f:UnitOfWorkHelper.cs" caret="73" fromTop="0" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/f:SessionContainer.cs" caret="411" fromTop="10" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/f:RepositoryTests.cs" caret="487" fromTop="12" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Global.asax.cs" caret="0" fromTop="0" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1663" fromTop="24" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="656" fromTop="17" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="494" fromTop="13" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="521" fromTop="11" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Configuration/f:ConfigurationFile.cs" caret="1092" fromTop="21" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Nhibernate/d:Conventions/f:CustomForeignKeyConvention.cs" caret="0" fromTop="0" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="708" fromTop="21" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:UserRepository.cs" caret="863" fromTop="24" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:UnitOfWork.cs" caret="3482" fromTop="39" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:UserBaseRepository.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:IUserRepository.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:IUserBaseRepository.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:IUnitOfWork.cs" caret="0" fromTop="0" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:UnitOfWork.cs" caret="523" fromTop="16" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:AdministratorRepository.cs" caret="0" fromTop="0" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:ViewModels/d:User/f:RegisterViewModel.cs" caret="0" fromTop="0" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Views/d:User/f:Register.cshtml" caret="89" fromTop="5" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Views/d:Shared/f:Master.cshtml" caret="198" fromTop="13" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Log4Net.xml" caret="674" fromTop="16" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Repositories/d:Users/f:UserRepository.cs" caret="598" fromTop="18" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="1036" fromTop="21" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Services/d:Users/f:IUserService.cs" caret="964" fromTop="23" />
+      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Services/d:Users/f:UserService.cs" caret="1284" fromTop="28" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Global.asax.cs" caret="1076" fromTop="23" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Controllers/f:UserController.cs" caret="1211" fromTop="27" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:ControllerFactory.cs" caret="1715" fromTop="47" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="4165" fromTop="49" />
     </RecentFiles>
     <RecentEdits>
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="0" fromTop="0" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Data/d:Transactions/f:UnitOfWork.cs" caret="3518" fromTop="13" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="115" fromTop="1" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="1110" fromTop="24" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="628" fromTop="15" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="890" fromTop="23" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1095" fromTop="8" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1235" fromTop="7" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1258" fromTop="20" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1258" fromTop="22" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1575" fromTop="17" />
-      <File id="6346FDA2-B622-47C1-B073-B0544EEF4CDC/d:Configuration/f:ConfigurationFile.cs" caret="1618" fromTop="21" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="760" fromTop="14" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="1059" fromTop="20" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="665" fromTop="17" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="309" fromTop="4" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="116" fromTop="1" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="272" fromTop="6" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="266" fromTop="5" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:IWebConfigurationFile.cs" caret="555" fromTop="15" />
-      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Configuration/f:ConfigurationFile.cs" caret="521" fromTop="11" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Configuration/f:ConfigurationFile.cs" caret="749" fromTop="10" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Configuration/f:ConfigurationFile.cs" caret="1092" fromTop="21" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="616" fromTop="9" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="1292" fromTop="20" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="114" fromTop="1" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="503" fromTop="7" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="1211" fromTop="21" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="1259" fromTop="22" />
-      <File id="3B4D0F92-03FA-4D80-8BB4-5117B72C87F7/d:Data/d:Repositories/d:Users/f:UserRepositoryTests.cs" caret="925" fromTop="13" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="1196" fromTop="24" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="1192" fromTop="28" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Web.config" caret="1036" fromTop="27" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="5346" fromTop="12" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="5346" fromTop="20" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:ControllerFactory.cs" caret="1700" fromTop="23" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:ControllerFactory.cs" caret="569" fromTop="13" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="706" fromTop="14" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="1962" fromTop="31" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/f:Global.asax.cs" caret="1058" fromTop="25" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:ControllerFactory.cs" caret="577" fromTop="10" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:ControllerFactory.cs" caret="2006" fromTop="24" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="5483" fromTop="15" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="3297" fromTop="18" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="3727" fromTop="35" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="1506" fromTop="11" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="2014" fromTop="25" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="5093" fromTop="33" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:Controllers/f:UserController.cs" caret="1175" fromTop="22" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="4538" fromTop="24" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="2738" fromTop="16" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="2518" fromTop="27" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="1683" fromTop="26" />
+      <File id="D5CE6748-635C-4B93-8967-BB199C6A3AE5/d:DependencyInjection/f:Injector.cs" caret="1962" fromTop="33" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -85,42 +67,42 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="BusinessObjectClassMap" priority="0" />
-      <Item value="public" priority="7" />
-      <Item value="string" priority="5" />
-      <Item value="ctor" priority="1" />
+      <Item value="public" priority="14" />
+      <Item value="string" priority="9" />
+      <Item value="ctor" priority="5" />
       <Item value="BookDatabase.Api" priority="1" />
-      <Item value="static" priority="4" />
-      <Item value="return" priority="7" />
-      <Item value="new" priority="24" />
-      <Item value="User" priority="0" />
+      <Item value="static" priority="10" />
+      <Item value="return" priority="14" />
+      <Item value="new" priority="31" />
+      <Item value="User" priority="1" />
       <Item value="UserName" priority="2" />
       <Item value="FirstName" priority="1" />
       <Item value="LastName" priority="1" />
       <Item value="Nhibernate" priority="0" />
       <Item value="IRepository" priority="0" />
-      <Item value="User`0" priority="3" />
+      <Item value="User`0" priority="9" />
       <Item value="int" priority="1" />
       <Item value="DisposeSession`0" priority="1" />
       <Item value="session" priority="0" />
-      <Item value="null" priority="4" />
-      <Item value="sessionLock" priority="0" />
+      <Item value="null" priority="5" />
+      <Item value="sessionLock" priority="1" />
       <Item value="SessionContainer`0" priority="0" />
       <Item value="IUserRepository`0" priority="1" />
-      <Item value="Session" priority="5" />
-      <Item value="userName" priority="6" />
+      <Item value="Session" priority="6" />
+      <Item value="userName" priority="7" />
       <Item value="attributes" priority="0" />
       <Item value="Map`0" priority="0" />
-      <Item value="password" priority="0" />
+      <Item value="password" priority="1" />
       <Item value="users" priority="1" />
-      <Item value="using" priority="1" />
-      <Item value="System" priority="3" />
-      <Item value="Linq" priority="0" />
+      <Item value="using" priority="5" />
+      <Item value="System" priority="5" />
+      <Item value="Linq" priority="1" />
       <Item value="Password" priority="1" />
-      <Item value="var" priority="22" />
+      <Item value="var" priority="34" />
       <Item value="userRepository" priority="1" />
       <Item value="ConfigurationFile" priority="5" />
-      <Item value="Mock`0" priority="4" />
-      <Item value="typeof" priority="1" />
+      <Item value="Mock`0" priority="5" />
+      <Item value="typeof" priority="9" />
       <Item value="GetType`0" priority="0" />
       <Item value="DatabaseConfiguration" priority="0" />
       <Item value="SessionFactoryFactory`0" priority="0" />
@@ -128,22 +110,22 @@
       <Item value="configurationFile" priority="4" />
       <Item value="foreach" priority="0" />
       <Item value="in" priority="0" />
-      <Item value="cw" priority="1" />
-      <Item value="user" priority="6" />
+      <Item value="cw" priority="7" />
+      <Item value="user" priority="8" />
       <Item value="IUnitOfWork`0" priority="1" />
       <Item value="entity" priority="0" />
-      <Item value="private" priority="9" />
+      <Item value="private" priority="17" />
       <Item value="item" priority="0" />
       <Item value="Base64FormattingOptions`0" priority="0" />
       <Item value="base" priority="0" />
       <Item value="ExecuteOperationWithRetry`0" priority="3" />
-      <Item value="readonly" priority="1" />
-      <Item value="object" priority="3" />
-      <Item value="void" priority="2" />
+      <Item value="readonly" priority="2" />
+      <Item value="object" priority="4" />
+      <Item value="void" priority="10" />
       <Item value="ConfigureCurrentTransaction`0" priority="0" />
       <Item value="if" priority="3" />
       <Item value="currentTransaction" priority="8" />
-      <Item value="bool" priority="0" />
+      <Item value="bool" priority="1" />
       <Item value="lock" priority="5" />
       <Item value="currentTransactionLock" priority="6" />
       <Item value="throw" priority="0" />
@@ -159,13 +141,13 @@
       <Item value="Repositories" priority="1" />
       <Item value="RepositoryTestHelper`0" priority="0" />
       <Item value="Tests" priority="1" />
-      <Item value="where" priority="1" />
-      <Item value="Repository" priority="1" />
+      <Item value="where" priority="4" />
+      <Item value="Repository" priority="2" />
       <Item value="TBusinessObject`0" priority="1" />
       <Item value="BusinessObject`0" priority="1" />
       <Item value="TRepository`0" priority="0" />
-      <Item value="BookDatabase" priority="2" />
-      <Item value="Api" priority="3" />
+      <Item value="BookDatabase" priority="3" />
+      <Item value="Api" priority="4" />
       <Item value="Configuration" priority="3" />
       <Item value="IApiConfigurationFile`0" priority="2" />
       <Item value="configurationFileMock" priority="1" />
@@ -179,11 +161,11 @@
       <Item value="AssemblyCleanupAttribute`0" priority="0" />
       <Item value="Assert`0" priority="1" />
       <Item value="result" priority="1" />
-      <Item value="T`0" priority="2" />
-      <Item value="BusinessObjects" priority="0" />
-      <Item value="IList" priority="2" />
-      <Item value="this" priority="1" />
-      <Item value="items" priority="6" />
+      <Item value="T`0" priority="5" />
+      <Item value="BusinessObjects" priority="1" />
+      <Item value="IList" priority="3" />
+      <Item value="this" priority="2" />
+      <Item value="items" priority="7" />
       <Item value="TestBusinessObject`0" priority="5" />
       <Item value="T" priority="0" />
       <Item value="List" priority="0" />
@@ -218,33 +200,95 @@
       <Item value="GetValue`1" priority="0" />
       <Item value="text" priority="0" />
       <Item value="GetInt`0" priority="0" />
-      <Item value="interface" priority="0" />
+      <Item value="interface" priority="1" />
       <Item value="GetString`0" priority="0" />
       <Item value="DateTime`0" priority="0" />
       <Item value="RepositoryHelper`0" priority="0" />
       <Item value="actualUser" priority="0" />
+      <Item value="QueryOver`0" priority="0" />
+      <Item value="queryOverMock" priority="3" />
+      <Item value="It`0" priority="1" />
+      <Item value="SqlFunctionProjection`0" priority="0" />
+      <Item value="Expression&lt;Func&lt;bool&gt;&gt;" priority="0" />
+      <Item value="while" priority="0" />
+      <Item value="List&lt;User&gt;" priority="1" />
+      <Item value="u1" priority="0" />
+      <Item value="u2" priority="0" />
+      <Item value="Dummy`0" priority="0" />
+      <Item value="IQueryOver`0" priority="0" />
+      <Item value="mock" priority="1" />
+      <Item value="Diagnostics" priority="0" />
+      <Item value="Debugger`0" priority="0" />
+      <Item value="DebuggerHidden" priority="0" />
+      <Item value="App_Start" priority="0" />
+      <Item value="UserBase`0" priority="3" />
+      <Item value="administrator" priority="0" />
+      <Item value="Administrator`0" priority="0" />
+      <Item value="Users" priority="1" />
+      <Item value="IUserService`0" priority="0" />
+      <Item value="UserRepository" priority="1" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="View`0" priority="1" />
+      <Item value="GetInjectorInstance`0" priority="0" />
+      <Item value="HttpOptions" priority="0" />
+      <Item value="HttpPost" priority="1" />
+      <Item value="container" priority="17" />
+      <Item value="RegisterServices`0" priority="0" />
+      <Item value="UserService" priority="1" />
+      <Item value="viewModel" priority="1" />
+      <Item value="Injector`0" priority="4" />
+      <Item value="log" priority="0" />
+      <Item value="IService`0" priority="0" />
+      <Item value="Component`0" priority="3" />
+      <Item value="UserService`0" priority="0" />
+      <Item value="t" priority="2" />
+      <Item value="Castle" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="ITest`0" priority="9" />
+      <Item value="test" priority="0" />
+      <Item value="AllTypes`0" priority="0" />
+      <Item value="IBTest`0" priority="0" />
+      <Item value="aTest" priority="0" />
+      <Item value="Level2" priority="0" />
+      <Item value="type" priority="0" />
+      <Item value="IDTest`0" priority="0" />
+      <Item value="prop" priority="0" />
+      <Item value="MessageEnd" priority="0" />
+      <Item value="Test`0" priority="2" />
+      <Item value="stopwatch" priority="2" />
+      <Item value="Content`0" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="controllerFactory" priority="0" />
+      <Item value="ILog`0" priority="1" />
+      <Item value="IController`0" priority="0" />
+      <Item value="RegisterLogging`0" priority="0" />
+      <Item value="RegisterControllers`0" priority="0" />
+      <Item value="RegisterConfiguration`0" priority="0" />
+      <Item value="RegisterViewModel`0" priority="0" />
+      <Item value="RegisterDataComponents`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:BookDatabase.Api.BusinessObjects.Users.User">
       <Item value="FirstName" priority="1" />
       <Item value="LastName" priority="1" />
-      <Item value="UserName" priority="2" />
-      <Item value="Password" priority="3" />
+      <Item value="UserName" priority="3" />
+      <Item value="Password" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Testing.PersistenceSpecification`1">
       <Item value="CheckProperty`2" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.ISession">
-      <Item value="QueryOver`1" priority="0" />
+      <Item value="QueryOver`1" priority="2" />
       <Item value="SaveOrUpdate`0" priority="2" />
       <Item value="BeginTransaction`0" priority="3" />
       <Item value="Delete`0" priority="2" />
       <Item value="CreateCriteria`0" priority="0" />
       <Item value="Get`1" priority="0" />
+      <Item value="Dispose`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.IQueryOver`2">
-      <Item value="Where`0" priority="0" />
+      <Item value="Where`0" priority="2" />
       <Item value="Left" priority="0" />
-      <Item value="List`1" priority="0" />
+      <Item value="List`1" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:FluentNHibernate.Mapping.PropertyPart">
       <Item value="Length`0" priority="0" />
@@ -260,15 +304,17 @@
       <Item value="Get`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Moq.Mock`1">
-      <Item value="Object" priority="10" />
-      <Item value="Setup`1" priority="7" />
+      <Item value="Object" priority="12" />
+      <Item value="Setup`1" priority="12" />
       <Item value="Verify`1" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Type">
       <Item value="Assembly" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Namespace" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:BookDatabase.Api.Data.Repositories.Users.IUserRepository">
-      <Item value="Get`0" priority="0" />
+      <Item value="Get`0" priority="1" />
       <Item value="GetAll`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:BookDatabase.Api.Configuration.IApiConfigurationFile">
@@ -276,7 +322,7 @@
       <Item value="ConnectionString" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
-      <Item value="Returns`16" priority="7" />
+      <Item value="Returns`16" priority="11" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:BookDatabase.Api.Data.SessionContainer">
       <Item value="ExecuteOperationWithRetry`0" priority="0" />
@@ -356,6 +402,93 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Int32">
       <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Criterion.QueryOver`2">
+      <Item value="Where`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.It">
+      <Item value="IsAny`1" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Tests.Data.Repositories.Dummy`1">
+      <Item value="items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BookDatabase.Api.Tests.BusinessObjects.Users.AdministratorHelper">
+      <Item value="GetNewValidAdministrator`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.Component">
+      <Item value="For`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.Lifestyle.LifestyleGroup`1">
+      <Item value="Singleton" priority="10" />
+      <Item value="PerWebRequest" priority="5" />
+      <Item value="PerThread" priority="0" />
+      <Item value="Transient" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Castle.MicroKernel.Registration.AllTypes">
+      <Item value="FromAssembly`0" priority="0" />
+      <Item value="FromAssemblyContaining`1" priority="1" />
+      <Item value="FromThisAssembly`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Api.Services.Users.IUserService">
+      <Item value="Register`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BookDatabase.Web.ViewModels.User.RegisterViewModel">
+      <Item value="User" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BookDatabase.Web.DependencyInjection.Injector">
+      <Item value="Instance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.IWindsorContainer">
+      <Item value="Resolve`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Info`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.WindsorContainer">
+      <Item value="Register`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Castle.MicroKernel.Registration.Component">
+      <Item value="For`5" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.ComponentRegistration`1">
+      <Item value="ImplementedBy`0" priority="6" />
+      <Item value="LifeStyle" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.BasedOnDescriptor">
+      <Item value="Where`0" priority="2" />
+      <Item value="Configure`0" priority="0" />
+      <Item value="WithService" priority="0" />
+      <Item value="If`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="EndsWith`0" priority="0" />
+      <Item value="StartsWith`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CastleTest.Injector">
+      <Item value="Instance" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CastleTest.ITest">
+      <Item value="GetTheMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.ComponentRegistration">
+      <Item value="LifeStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.FromAssemblyDescriptor">
+      <Item value="Where`0" priority="0" />
+      <Item value="BasedOn`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CastleTest.Tests.ITest">
+      <Item value="GetTheMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="Start`0" priority="1" />
+      <Item value="Elapsed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DELETE.DependencyInjection.Injector">
+      <Item value="Instance" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

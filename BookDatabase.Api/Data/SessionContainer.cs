@@ -144,7 +144,10 @@ namespace BookDatabase.Api.Data
                 }
 
                 // Dispose unmanaged resources:
-                session.Dispose();
+                if (session != null)
+                {
+                    session.Dispose();
+                }
 
                 // Note disposing has been done.
                 disposed = true;

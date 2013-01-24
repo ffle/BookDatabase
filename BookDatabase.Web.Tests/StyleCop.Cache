@@ -3,15 +3,6 @@
   <project key="-1661477230">
     <configuration>DEBUG;TRACE</configuration>
   </project>
-  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
-    <settings>
-      <timestamp>10/08/2012 09:37:40</timestamp>
-      <milliseconds>707</milliseconds>
-    </settings>
-    <timestamp>01/23/2013 14:22:09</timestamp>
-    <milliseconds>345</milliseconds>
-    <violations />
-  </sourcecode>
   <sourcecode name="SolutionInfo.cs" parser="StyleCop.CSharp.CsParser">
     <settings>
       <timestamp>10/08/2012 09:37:40</timestamp>
@@ -19,6 +10,15 @@
     </settings>
     <timestamp>10/08/2012 09:37:40</timestamp>
     <milliseconds>709</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>10/08/2012 09:37:40</timestamp>
+      <milliseconds>707</milliseconds>
+    </settings>
+    <timestamp>01/23/2013 14:22:09</timestamp>
+    <milliseconds>345</milliseconds>
     <violations />
   </sourcecode>
 </stylecopresultscache>

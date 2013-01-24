@@ -12,7 +12,7 @@ namespace BookDatabase.Api.Services.Users
     /// <summary>
     /// Service for Users
     /// </summary>
-    public class UserService : IUserService, IService
+    public class UserService : IUserService
     {
         /// <summary>
         /// Gets or sets the user repository

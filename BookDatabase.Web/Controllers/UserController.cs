@@ -7,7 +7,6 @@
 using System.Web.Mvc;
 using BookDatabase.Api.Services.Users;
 using BookDatabase.Web.ViewModels.User;
-using log4net;
 
 namespace BookDatabase.Web.Controllers
 {
@@ -20,7 +19,7 @@ namespace BookDatabase.Web.Controllers
         /// Gets or sets the user service
         /// </summary>
         public IUserService UserService { get; set; }
-        
+
         /// <summary>
         /// Register GET action
         /// </summary>
@@ -38,7 +37,7 @@ namespace BookDatabase.Web.Controllers
         [HttpPost]
         public ActionResult Register(RegisterViewModel viewModel)
         {
-            UserService.Register(viewModel.User);
+            UserService.Register(null);
             return View("Register");
         }
     }

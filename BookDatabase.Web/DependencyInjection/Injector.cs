@@ -5,16 +5,13 @@
 //-----------------------------------------------------------------------
 
 using System.Web.Mvc;
+using BookDatabase.Api.BusinessObjects.Users;
+using BookDatabase.Api.Data.Transactions;
 using BookDatabase.Web.Configuration;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 using Castle.Windsor.Installer;
 using log4net;
-using BookDatabase.Api.BusinessObjects.Users;
-using BookDatabase.Api.Data;
-using BookDatabase.Api.Data.Repositories;
-using BookDatabase.Api.Services;
-using BookDatabase.Api.Services.Users;
 
 namespace BookDatabase.Web.DependencyInjection
 {
@@ -57,15 +54,16 @@ namespace BookDatabase.Web.DependencyInjection
 
             container.Install(FromAssembly.This());
 
-            RegisterControllers(container);
-            RegisterLogging(container);
+            RegisterInjector(container);
             RegisterConfiguration(container);
-            RegisterRepositories(container);
+            RegisterLogging(container);
+            RegisterControllers(container);
             RegisterServices(container);
-
+            RegisterDataComponents(container);
+            
             return container;
         }
-
+        
         /// <summary>
         /// Registers controllers
         /// </summary>
@@ -75,10 +73,13 @@ namespace BookDatabase.Web.DependencyInjection
             var controllerFactory = new ControllerFactory(container.Kernel);
             ControllerBuilder.Current.SetControllerFactory(controllerFactory);
 
+            // Note that the following statement only works if "If" is used for 
+            // both conditions:
             container.Register(
                     AllTypes.FromThisAssembly()
                     .BasedOn(typeof(IController))
                     .If(t => t.Name.EndsWith("Controller"))
+                    .If(t => t.Namespace.StartsWith("BookDatabase.Web.Controllers"))
                     .Configure(c => c.LifeStyle.PerWebRequest));
         }
 
@@ -107,16 +108,21 @@ namespace BookDatabase.Web.DependencyInjection
         }
 
         /// <summary>
-        /// Registers repositories
+        /// Registers repositories and the unit of work type
         /// </summary>
         /// <param name="container">The container</param>
-        private static void RegisterRepositories(WindsorContainer container)
+        private static void RegisterDataComponents(WindsorContainer container)
         {
+            container.Register(AllTypes.FromAssemblyContaining(typeof(User))
+                .Where(type => type.Name.EndsWith("Repository"))
+                .If(type => type.Namespace.StartsWith("BookDatabase.Api.Data.Repositories"))
+                .WithService.DefaultInterface()
+                .Configure(c => c.LifeStyle.PerWebRequest));
+
             container.Register(
-                    AllTypes.FromAssemblyContaining(typeof(User))
-                    .BasedOn(typeof(IRepository))
-                    .If(t => t.Name.EndsWith("Repository"))
-                    .Configure(c => c.LifeStyle.PerWebRequest));
+                Component.For<IUnitOfWork>()
+                .ImplementedBy(typeof(UnitOfWork))
+                .LifeStyle.PerWebRequest);
         }
 
         /// <summary>
@@ -125,12 +131,22 @@ namespace BookDatabase.Web.DependencyInjection
         /// <param name="container">The container</param>
         private static void RegisterServices(WindsorContainer container)
         {
-#error this doesn't work!!!! Fix and test in application start method
+            container.Register(AllTypes.FromAssemblyContaining(typeof(User))
+                .Where(type => type.Name.EndsWith("Service"))
+                .If(type => type.Namespace.StartsWith("BookDatabase.Api.Services"))
+                .WithService.DefaultInterface()
+                .Configure(c => c.LifeStyle.Singleton));
+        }
+
+        /// <summary>
+        /// Registers the dependency injector
+        /// </summary>
+        /// <param name="container">The container</param>
+        private static void RegisterInjector(WindsorContainer container)
+        {
             container.Register(
-                    AllTypes.FromAssemblyContaining(typeof(User))
-                    .BasedOn(typeof(IService))
-                    .Where(t => t.Name.EndsWith("Service"))
-                    .Configure(c => c.LifeStyle.PerWebRequest));
+                Component.For<IWindsorContainer>()
+                .Instance(container));
         }
     }
 }
